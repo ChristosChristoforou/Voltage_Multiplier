@@ -1,0 +1,661 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 2 38
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_SS T1
+U 1 1 61244C03
+P 3550 7000
+F 0 "T1" H 3550 7381 50  0000 C CNN
+F 1 "2.4:1_Center_Tapped_20A" H 3550 7290 50  0000 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x05_P3.50mm_Vertical" H 3550 7000 50  0001 C CNN
+F 3 "~" H 3550 7000 50  0001 C CNN
+	1    3550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6800 3950 6225
+Wire Wire Line
+	4525 6225 4900 6225
+Wire Wire Line
+	3950 7200 3950 7775
+Wire Wire Line
+	4525 7775 4900 7775
+Wire Wire Line
+	4900 6325 4900 6225
+Wire Wire Line
+	4900 6825 4900 7000
+Connection ~ 4900 7000
+Wire Wire Line
+	4900 7000 5275 7000
+Wire Wire Line
+	4900 7000 4900 7175
+Wire Wire Line
+	4900 7675 4900 7775
+Wire Wire Line
+	3950 6225 4025 6225
+Wire Wire Line
+	3950 7775 4025 7775
+$Sheet
+S 4025 6150 500  150 
+U 61244C13
+F0 "sheet61244BDA" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 4025 6225 50 
+F3 "C2" U R 4525 6225 50 
+$EndSheet
+$Sheet
+S 4025 7700 500  150 
+U 61244C17
+F0 "sheet61244BDB" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 4025 7775 50 
+F3 "C2" U R 4525 7775 50 
+$EndSheet
+Wire Wire Line
+	3950 7000 4675 7000
+Connection ~ 6150 7775
+Connection ~ 6150 6225
+Wire Wire Line
+	6525 7775 6150 7775
+Wire Wire Line
+	6525 6225 6150 6225
+Wire Wire Line
+	7400 7675 7400 7775
+Wire Wire Line
+	7400 7000 7400 7175
+Wire Wire Line
+	7400 7000 7775 7000
+Connection ~ 7400 7000
+Wire Wire Line
+	7400 6825 7400 7000
+Wire Wire Line
+	7400 6325 7400 6225
+Wire Wire Line
+	7025 7775 7400 7775
+Wire Wire Line
+	7025 6225 7400 6225
+$Sheet
+S 6075 7175 150  500 
+U 61244C28
+F0 "sheet61244BDC" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 6150 7675 50 
+F3 "D+" U T 6150 7175 50 
+$EndSheet
+$Sheet
+S 6075 6325 150  500 
+U 61244C2C
+F0 "sheet61244BDD" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 6150 6325 50 
+F3 "D+" U B 6150 6825 50 
+$EndSheet
+Wire Wire Line
+	6150 7775 6150 7675
+Wire Wire Line
+	6150 6325 6150 6225
+Wire Wire Line
+	5775 7000 6150 7000
+Wire Wire Line
+	6150 7000 6150 7175
+Connection ~ 6150 7000
+Wire Wire Line
+	6150 6825 6150 7000
+$Sheet
+S 4825 7175 150  500 
+U 61244C36
+F0 "sheet61244BDE" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 4900 7675 50 
+F3 "D+" U T 4900 7175 50 
+$EndSheet
+$Sheet
+S 4825 6325 150  500 
+U 61244C3A
+F0 "sheet61244BDF" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 4900 6325 50 
+F3 "D+" U B 4900 6825 50 
+$EndSheet
+$Sheet
+S 5275 6925 500  150 
+U 61244C3E
+F0 "sheet61244BE0" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 5275 7000 50 
+F3 "C2" U R 5775 7000 50 
+$EndSheet
+Wire Wire Line
+	4900 6225 6150 6225
+Connection ~ 4900 6225
+Wire Wire Line
+	4900 7775 6150 7775
+Connection ~ 4900 7775
+$Sheet
+S 6525 6150 500  150 
+U 61244C46
+F0 "sheet61244BE1" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 6525 6225 50 
+F3 "C2" U R 7025 6225 50 
+$EndSheet
+$Sheet
+S 6525 7700 500  150 
+U 61244C4A
+F0 "sheet61244BE2" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 6525 7775 50 
+F3 "C2" U R 7025 7775 50 
+$EndSheet
+Wire Wire Line
+	6150 7000 7400 7000
+$Sheet
+S 7325 6325 150  500 
+U 61244C4F
+F0 "sheet61244BE3" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 7400 6325 50 
+F3 "D+" U B 7400 6825 50 
+$EndSheet
+$Sheet
+S 7325 7175 150  500 
+U 61244C53
+F0 "sheet61244BE4" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 7400 7675 50 
+F3 "D+" U T 7400 7175 50 
+$EndSheet
+Wire Wire Line
+	8650 6825 8650 7000
+Connection ~ 8650 7000
+Wire Wire Line
+	8650 7000 8650 7175
+Wire Wire Line
+	8275 7000 8650 7000
+Wire Wire Line
+	8650 6325 8650 6225
+Wire Wire Line
+	8650 7775 8650 7675
+Wire Wire Line
+	9025 6225 8650 6225
+Wire Wire Line
+	9025 7775 8650 7775
+Connection ~ 8650 6225
+Connection ~ 8650 7775
+$Sheet
+S 7775 6925 500  150 
+U 61244C61
+F0 "sheet61244BE5" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 7775 7000 50 
+F3 "C2" U R 8275 7000 50 
+$EndSheet
+Connection ~ 11150 7775
+Connection ~ 11150 6225
+Wire Wire Line
+	11525 7775 11150 7775
+Wire Wire Line
+	11525 6225 11150 6225
+Wire Wire Line
+	13650 7775 13650 7675
+Wire Wire Line
+	13650 6325 13650 6225
+Wire Wire Line
+	13275 7000 13650 7000
+Wire Wire Line
+	13650 7000 13650 7175
+Connection ~ 13650 7000
+Wire Wire Line
+	13650 6825 13650 7000
+$Sheet
+S 13575 7175 150  500 
+U 61244C6F
+F0 "sheet61244BE6" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 13650 7675 50 
+F3 "D+" U T 13650 7175 50 
+$EndSheet
+$Sheet
+S 13575 6325 150  500 
+U 61244C73
+F0 "sheet61244BE7" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 13650 6325 50 
+F3 "D+" U B 13650 6825 50 
+$EndSheet
+Wire Wire Line
+	12400 7675 12400 7775
+Wire Wire Line
+	12400 7000 12400 7175
+Wire Wire Line
+	12400 7000 12775 7000
+Connection ~ 12400 7000
+Wire Wire Line
+	12400 6825 12400 7000
+Wire Wire Line
+	12400 6325 12400 6225
+$Sheet
+S 12325 7175 150  500 
+U 61244C7D
+F0 "sheet61244BE8" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 12400 7675 50 
+F3 "D+" U T 12400 7175 50 
+$EndSheet
+$Sheet
+S 12325 6325 150  500 
+U 61244C81
+F0 "sheet61244BE9" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 12400 6325 50 
+F3 "D+" U B 12400 6825 50 
+$EndSheet
+Wire Wire Line
+	12025 7775 12400 7775
+Wire Wire Line
+	12025 6225 12400 6225
+Wire Wire Line
+	11150 7775 11150 7675
+Wire Wire Line
+	11150 6325 11150 6225
+Wire Wire Line
+	10775 7000 11150 7000
+Wire Wire Line
+	11150 7000 11150 7175
+Connection ~ 11150 7000
+Wire Wire Line
+	11150 6825 11150 7000
+$Sheet
+S 11075 7175 150  500 
+U 61244C8D
+F0 "sheet61244BEA" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 11150 7675 50 
+F3 "D+" U T 11150 7175 50 
+$EndSheet
+$Sheet
+S 11075 6325 150  500 
+U 61244C91
+F0 "sheet61244BEB" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 11150 6325 50 
+F3 "D+" U B 11150 6825 50 
+$EndSheet
+Wire Wire Line
+	9900 7675 9900 7775
+Wire Wire Line
+	9900 7000 9900 7175
+Wire Wire Line
+	9900 7000 10275 7000
+Connection ~ 9900 7000
+Wire Wire Line
+	9900 6825 9900 7000
+Wire Wire Line
+	9900 6325 9900 6225
+$Sheet
+S 9825 7175 150  500 
+U 61244C9B
+F0 "sheet61244BEC" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 9900 7675 50 
+F3 "D+" U T 9900 7175 50 
+$EndSheet
+$Sheet
+S 9825 6325 150  500 
+U 61244C9F
+F0 "sheet61244BED" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 9900 6325 50 
+F3 "D+" U B 9900 6825 50 
+$EndSheet
+Wire Wire Line
+	9525 7775 9900 7775
+Wire Wire Line
+	9525 6225 9900 6225
+$Sheet
+S 8575 7175 150  500 
+U 61244CA5
+F0 "sheet61244BEE" 50
+F1 "Diode.sch" 50
+F2 "D-" U B 8650 7675 50 
+F3 "D+" U T 8650 7175 50 
+$EndSheet
+$Sheet
+S 8575 6325 150  500 
+U 61244CA9
+F0 "sheet61244BEF" 50
+F1 "Diode.sch" 50
+F2 "D-" U T 8650 6325 50 
+F3 "D+" U B 8650 6825 50 
+$EndSheet
+$Sheet
+S 9025 6150 500  150 
+U 61244CAD
+F0 "sheet61244BF0" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 9025 6225 50 
+F3 "C2" U R 9525 6225 50 
+$EndSheet
+$Sheet
+S 9025 7700 500  150 
+U 61244CB1
+F0 "sheet61244BF1" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 9025 7775 50 
+F3 "C2" U R 9525 7775 50 
+$EndSheet
+$Sheet
+S 10275 6925 500  150 
+U 61244CB5
+F0 "sheet61244BF2" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 10275 7000 50 
+F3 "C2" U R 10775 7000 50 
+$EndSheet
+$Sheet
+S 11525 6150 500  150 
+U 61244CB9
+F0 "sheet61244BF3" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 11525 6225 50 
+F3 "C2" U R 12025 6225 50 
+$EndSheet
+$Sheet
+S 11525 7700 500  150 
+U 61244CBD
+F0 "sheet61244BF4" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 11525 7775 50 
+F3 "C2" U R 12025 7775 50 
+$EndSheet
+$Sheet
+S 12775 6925 500  150 
+U 61244CC1
+F0 "sheet61244BF5" 50
+F1 "cap_array.sch" 50
+F2 "C1" U L 12775 7000 50 
+F3 "C2" U R 13275 7000 50 
+$EndSheet
+Wire Wire Line
+	7400 6225 8650 6225
+Connection ~ 7400 6225
+Wire Wire Line
+	7400 7775 8650 7775
+Connection ~ 7400 7775
+Wire Wire Line
+	8650 7000 9900 7000
+Wire Wire Line
+	9900 6225 11150 6225
+Connection ~ 9900 6225
+Wire Wire Line
+	9900 7775 11150 7775
+Connection ~ 9900 7775
+Wire Wire Line
+	11150 7000 12400 7000
+Wire Wire Line
+	12400 6225 13650 6225
+Connection ~ 12400 6225
+Wire Wire Line
+	12400 7775 13650 7775
+Connection ~ 12400 7775
+Wire Wire Line
+	4675 7000 4675 8700
+Connection ~ 4675 7000
+Wire Wire Line
+	4675 7000 4900 7000
+$Sheet
+S 14300 7700 150  500 
+U 61244CD6
+F0 "sheet61244BF6" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 14375 8200 50 
+F3 "C2" U T 14375 7700 50 
+$EndSheet
+$Sheet
+S 15300 7700 150  500 
+U 61244CDE
+F0 "sheet61244BF8" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 15375 8200 50 
+F3 "C2" U T 15375 7700 50 
+$EndSheet
+Wire Wire Line
+	17450 7375 17725 7375
+Wire Wire Line
+	17725 7375 17725 7300
+Wire Wire Line
+	17525 7000 16900 7000
+Wire Wire Line
+	16900 7000 16900 7375
+Wire Wire Line
+	16900 7375 17050 7375
+Connection ~ 16900 7000
+Wire Wire Line
+	15375 8700 15375 8200
+Wire Wire Line
+	4675 8700 14375 8700
+Wire Wire Line
+	14875 8200 14875 8700
+Connection ~ 14875 8700
+Wire Wire Line
+	14875 8700 15375 8700
+Wire Wire Line
+	14375 8200 14375 8700
+Connection ~ 14375 8700
+Wire Wire Line
+	14375 8700 14875 8700
+Wire Wire Line
+	14375 7000 14375 7700
+Wire Wire Line
+	13650 7000 14375 7000
+Wire Wire Line
+	14375 7000 14875 7000
+Wire Wire Line
+	14875 7000 14875 7700
+Connection ~ 14375 7000
+Wire Wire Line
+	14875 7000 15375 7000
+Wire Wire Line
+	15375 7000 15375 7700
+Connection ~ 14875 7000
+Connection ~ 15375 7000
+$Sheet
+S 16925 8075 150  500 
+U 61244CFA
+F0 "sheet61244BF9" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 17000 8575 50 
+F3 "C2" U T 17000 8075 50 
+$EndSheet
+$Sheet
+S 17450 8075 150  500 
+U 61244CFE
+F0 "sheet61244BFA" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 17525 8575 50 
+F3 "C2" U T 17525 8075 50 
+$EndSheet
+Wire Wire Line
+	17525 8075 17525 7950
+Wire Wire Line
+	17525 7950 17250 7950
+Wire Wire Line
+	17000 7950 17000 8075
+Wire Wire Line
+	17250 7675 17250 7950
+Connection ~ 17250 7950
+Wire Wire Line
+	17250 7950 17000 7950
+Wire Wire Line
+	15375 8700 17000 8700
+Wire Wire Line
+	17525 8700 17525 8575
+Connection ~ 15375 8700
+Wire Wire Line
+	17000 8575 17000 8700
+Connection ~ 17000 8700
+Wire Wire Line
+	17000 8700 17525 8700
+Wire Wire Line
+	17000 7950 16200 7950
+Connection ~ 17000 7950
+Wire Wire Line
+	17525 8700 18375 8700
+Connection ~ 17525 8700
+$Sheet
+S 18300 7700 150  500 
+U 61244D15
+F0 "sheet61244BFB" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 18375 8200 50 
+F3 "C2" U T 18375 7700 50 
+$EndSheet
+$Sheet
+S 18800 7700 150  500 
+U 61244D19
+F0 "sheet61244BFC" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 18875 8200 50 
+F3 "C2" U T 18875 7700 50 
+$EndSheet
+$Sheet
+S 19300 7700 150  500 
+U 61244D1D
+F0 "sheet61244BFD" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 19375 8200 50 
+F3 "C2" U T 19375 7700 50 
+$EndSheet
+Wire Wire Line
+	19375 8700 19375 8200
+Wire Wire Line
+	18875 8200 18875 8700
+Wire Wire Line
+	18375 8200 18375 8700
+Wire Wire Line
+	18375 7000 18375 7700
+Wire Wire Line
+	18875 7000 18875 7700
+Wire Wire Line
+	19375 7000 19375 7700
+Connection ~ 18375 8700
+Wire Wire Line
+	17925 7000 18375 7000
+Connection ~ 18375 7000
+Wire Wire Line
+	18375 7000 18875 7000
+Connection ~ 18875 7000
+Wire Wire Line
+	18875 7000 19375 7000
+Wire Wire Line
+	18375 8700 18875 8700
+Connection ~ 18875 8700
+Wire Wire Line
+	18875 8700 19375 8700
+$Comp
+L Transistor_IGBT:IRG4PF50W Q2
+U 1 1 61244D32
+P 17725 7100
+F 0 "Q2" V 18053 7100 50  0000 C CNN
+F 1 "IRG4PF50W" V 17962 7100 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 17925 7025 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 17725 7100 50  0001 L CNN
+	1    17725 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_IGBT:IRG4PF50W Q1
+U 1 1 61244D38
+P 17250 7475
+F 0 "Q1" V 17578 7475 50  0000 C CNN
+F 1 "IRG4PF50W" V 17487 7475 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 17450 7400 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 17250 7475 50  0001 L CNN
+	1    17250 7475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad HS2
+U 1 1 61244D3E
+P 17450 6775
+F 0 "HS2" H 17591 6814 50  0000 L CNN
+F 1 "Heatsink_Pad" H 17591 6723 50  0000 L CNN
+F 2 "Heatsink:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm" H 17462 6725 50  0001 C CNN
+F 3 "~" H 17462 6725 50  0001 C CNN
+	1    17450 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad HS1
+U 1 1 61244D44
+P 17075 7150
+F 0 "HS1" H 17216 7189 50  0000 L CNN
+F 1 "Heatsink_Pad" H 17216 7098 50  0000 L CNN
+F 2 "Heatsink:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm" H 17087 7100 50  0001 C CNN
+F 3 "~" H 17087 7100 50  0001 C CNN
+	1    17075 7150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 17450 6875
+NoConn ~ 17075 7250
+Connection ~ 19375 8700
+Wire Wire Line
+	19375 8700 20500 8700
+Wire Wire Line
+	19375 7000 20500 7000
+Connection ~ 19375 7000
+Text HLabel 20500 7000 2    50   UnSpc ~ 0
+Vo
+Text HLabel 20500 8700 2    50   UnSpc ~ 0
+GND
+Text HLabel 2875 6800 0    50   UnSpc ~ 0
+AC1
+Text HLabel 2875 7200 0    50   UnSpc ~ 0
+AC2
+Wire Wire Line
+	2875 6800 3150 6800
+Wire Wire Line
+	2875 7200 3150 7200
+$Sheet
+S 14800 7700 150  500 
+U 61244CDA
+F0 "sheet61244BF7" 50
+F1 "cap_array.sch" 50
+F2 "C1" U B 14875 8200 50 
+F3 "C2" U T 14875 7700 50 
+$EndSheet
+$Comp
+L Device:R_US R?
+U 1 1 6124D1DB
+P 16200 7450
+AR Path="/6124D1DB" Ref="R?"  Part="1" 
+AR Path="/6123FA74/6124D1DB" Ref="R22"  Part="1" 
+F 0 "R22" V 15995 7450 50  0000 C CNN
+F 1 "R_US" V 16086 7450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm" V 16240 7440 50  0001 C CNN
+F 3 "~" H 16200 7450 50  0001 C CNN
+	1    16200 7450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15375 7000 16200 7000
+Wire Wire Line
+	16200 7300 16200 7000
+Connection ~ 16200 7000
+Wire Wire Line
+	16200 7000 16900 7000
+Wire Wire Line
+	16200 7600 16200 7950
+$EndSCHEMATC

@@ -1,0 +1,2723 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 610C39E4
+P 700 5650
+F 0 "J?" H 757 5975 50  0000 C CNN
+F 1 "Barrel_Jack" H 757 5884 50  0000 C CNN
+F 2 "" H 750 5610 50  0001 C CNN
+F 3 "~" H 750 5610 50  0001 C CNN
+	1    700  5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4925 1825 4925
+Wire Wire Line
+	4425 4925 4600 4925
+$Comp
+L Device:R_US R?
+U 1 1 610F5143
+P 4275 4925
+F 0 "R?" V 4070 4925 50  0000 C CNN
+F 1 "1k" V 4161 4925 50  0000 C CNN
+F 2 "" V 4315 4915 50  0001 C CNN
+F 3 "~" H 4275 4925 50  0001 C CNN
+	1    4275 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 610F1DB9
+P 1975 4925
+F 0 "L?" V 2165 4925 50  0000 C CNN
+F 1 "10m/8A" V 2074 4925 50  0000 C CNN
+F 2 "" H 1975 4925 50  0001 C CNN
+F 3 "~" H 1975 4925 50  0001 C CNN
+	1    1975 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 610C550F
+P 4525 5450
+F 0 "D?" V 4479 5529 50  0000 L CNN
+F 1 "SD36_SOD323" V 4570 5529 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 4525 5250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 4525 5450 50  0001 C CNN
+	1    4525 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6116B1B8
+P 2050 5650
+F 0 "C?" H 2165 5696 50  0000 L CNN
+F 1 "10u" H 2165 5605 50  0000 L CNN
+F 2 "" H 2088 5500 50  0001 C CNN
+F 3 "~" H 2050 5650 50  0001 C CNN
+	1    2050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 5500 3675 5425
+Wire Wire Line
+	3675 5425 3350 5425
+Wire Wire Line
+	2050 5425 2050 5500
+Wire Wire Line
+	2050 5800 2050 5875
+Wire Wire Line
+	2050 5875 2375 5875
+Wire Wire Line
+	3675 5875 3675 5800
+Wire Wire Line
+	3350 5800 3350 5875
+Connection ~ 3350 5875
+Wire Wire Line
+	3350 5875 3675 5875
+Wire Wire Line
+	3025 5800 3025 5875
+Connection ~ 3025 5875
+Wire Wire Line
+	3025 5875 3350 5875
+Wire Wire Line
+	2700 5800 2700 5875
+Connection ~ 2700 5875
+Wire Wire Line
+	2375 5800 2375 5875
+Connection ~ 2375 5875
+Wire Wire Line
+	2375 5875 2700 5875
+Wire Wire Line
+	2375 5500 2375 5425
+Connection ~ 2375 5425
+Wire Wire Line
+	2375 5425 2050 5425
+Wire Wire Line
+	2700 5500 2700 5425
+Connection ~ 2700 5425
+Wire Wire Line
+	2700 5425 2375 5425
+Wire Wire Line
+	3025 5500 3025 5425
+Connection ~ 3025 5425
+Wire Wire Line
+	3025 5425 2875 5425
+Connection ~ 3350 5425
+Wire Wire Line
+	3350 5425 3025 5425
+Connection ~ 2875 5425
+Wire Wire Line
+	2875 5425 2700 5425
+Wire Wire Line
+	2875 4925 2875 5425
+Wire Wire Line
+	2700 5875 2875 5875
+Connection ~ 2875 5875
+Wire Wire Line
+	2875 5875 3025 5875
+Wire Wire Line
+	2875 4925 4125 4925
+Wire Wire Line
+	2875 6375 3925 6375
+Wire Wire Line
+	4375 5450 3925 5450
+Wire Wire Line
+	3925 5450 3925 6375
+Connection ~ 3925 6375
+Wire Wire Line
+	3925 6375 4375 6375
+Wire Wire Line
+	4675 5450 5075 5450
+Wire Wire Line
+	7775 4925 7950 4925
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 611993B9
+P 7875 5450
+F 0 "D?" V 7829 5529 50  0000 L CNN
+F 1 "SD36_SOD323" V 7920 5529 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 7875 5250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 7875 5450 50  0001 C CNN
+	1    7875 5450
+	-1   0    0    1   
+$EndComp
+Connection ~ 6225 5425
+Wire Wire Line
+	6225 4925 6225 5425
+Wire Wire Line
+	6225 5875 6225 6375
+Connection ~ 6225 5875
+Wire Wire Line
+	6225 4925 7475 4925
+Wire Wire Line
+	4900 4925 5075 4925
+Connection ~ 6225 4925
+Wire Wire Line
+	6225 6375 7275 6375
+Wire Wire Line
+	7725 5450 7275 5450
+Wire Wire Line
+	7275 5450 7275 6375
+Connection ~ 7275 6375
+Wire Wire Line
+	7275 6375 7725 6375
+Wire Wire Line
+	8025 5450 8425 5450
+Wire Wire Line
+	11125 4925 11300 4925
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 611A8EEF
+P 11225 5450
+F 0 "D?" V 11179 5529 50  0000 L CNN
+F 1 "SD36_SOD323" V 11270 5529 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 11225 5250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 11225 5450 50  0001 C CNN
+	1    11225 5450
+	-1   0    0    1   
+$EndComp
+Connection ~ 9575 5425
+Wire Wire Line
+	9575 4925 9575 5425
+Wire Wire Line
+	9575 5875 9575 6375
+Connection ~ 9575 5875
+Wire Wire Line
+	9575 4925 10825 4925
+Wire Wire Line
+	8250 4925 8425 4925
+Connection ~ 9575 4925
+Wire Wire Line
+	9575 6375 10625 6375
+Wire Wire Line
+	11075 5450 10625 5450
+Wire Wire Line
+	10625 5450 10625 6375
+Connection ~ 10625 6375
+Wire Wire Line
+	10625 6375 11075 6375
+Wire Wire Line
+	11375 5450 11775 5450
+Wire Wire Line
+	8425 5450 8425 4925
+Connection ~ 8425 4925
+Wire Wire Line
+	8425 4925 9575 4925
+Wire Wire Line
+	8025 6375 9575 6375
+Connection ~ 9575 6375
+Wire Wire Line
+	4675 6375 6225 6375
+Connection ~ 6225 6375
+Wire Wire Line
+	5075 5450 5075 4925
+Connection ~ 5075 4925
+Wire Wire Line
+	5075 4925 6225 4925
+Wire Wire Line
+	14475 4925 14650 4925
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 611DC6CD
+P 14575 5450
+F 0 "D?" V 14529 5529 50  0000 L CNN
+F 1 "SD36_SOD323" V 14620 5529 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 14575 5250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 14575 5450 50  0001 C CNN
+	1    14575 5450
+	-1   0    0    1   
+$EndComp
+Connection ~ 12925 5425
+Wire Wire Line
+	12925 4925 12925 5425
+Wire Wire Line
+	12925 5875 12925 6375
+Connection ~ 12925 5875
+Wire Wire Line
+	12925 4925 14175 4925
+Wire Wire Line
+	11600 4925 11775 4925
+Connection ~ 12925 4925
+Wire Wire Line
+	12925 6375 13975 6375
+Wire Wire Line
+	14425 5450 13975 5450
+Wire Wire Line
+	13975 5450 13975 6375
+Connection ~ 13975 6375
+Wire Wire Line
+	13975 6375 14425 6375
+Wire Wire Line
+	14725 5450 15125 5450
+Wire Wire Line
+	17825 4925 18000 4925
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 611DC737
+P 17925 5450
+F 0 "D?" V 17879 5529 50  0000 L CNN
+F 1 "SD36_SOD323" V 17970 5529 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 17925 5250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 17925 5450 50  0001 C CNN
+	1    17925 5450
+	-1   0    0    1   
+$EndComp
+Connection ~ 16275 5425
+Wire Wire Line
+	16275 4925 16275 5425
+Wire Wire Line
+	16275 5875 16275 6375
+Connection ~ 16275 5875
+Wire Wire Line
+	16275 4925 17525 4925
+Wire Wire Line
+	14950 4925 15125 4925
+Connection ~ 16275 4925
+Wire Wire Line
+	16275 6375 17325 6375
+Wire Wire Line
+	17775 5450 17325 5450
+Wire Wire Line
+	17325 5450 17325 6375
+Connection ~ 17325 6375
+Wire Wire Line
+	17325 6375 17775 6375
+Wire Wire Line
+	18075 5450 18475 5450
+Wire Wire Line
+	21175 4925 21350 4925
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 611DC7A1
+P 21275 5450
+F 0 "D?" V 21229 5529 50  0000 L CNN
+F 1 "SD36_SOD323" V 21320 5529 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 21275 5250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 21275 5450 50  0001 C CNN
+	1    21275 5450
+	-1   0    0    1   
+$EndComp
+Connection ~ 19625 5425
+Wire Wire Line
+	19625 4925 19625 5425
+Wire Wire Line
+	19625 5875 19625 6375
+Connection ~ 19625 5875
+Wire Wire Line
+	19625 4925 20875 4925
+Wire Wire Line
+	18300 4925 18475 4925
+Connection ~ 19625 4925
+Wire Wire Line
+	19625 6375 20675 6375
+Wire Wire Line
+	21125 5450 20675 5450
+Wire Wire Line
+	20675 5450 20675 6375
+Connection ~ 20675 6375
+Wire Wire Line
+	20675 6375 21125 6375
+Wire Wire Line
+	21425 5450 21825 5450
+Wire Wire Line
+	18475 5450 18475 4925
+Connection ~ 18475 4925
+Wire Wire Line
+	18475 4925 19625 4925
+Wire Wire Line
+	18075 6375 19625 6375
+Connection ~ 19625 6375
+Wire Wire Line
+	14725 6375 16275 6375
+Connection ~ 16275 6375
+Wire Wire Line
+	15125 5450 15125 4925
+Connection ~ 15125 4925
+Wire Wire Line
+	15125 4925 16275 4925
+Wire Wire Line
+	11375 6375 12925 6375
+Connection ~ 12925 6375
+Wire Wire Line
+	11775 5450 11775 4925
+Connection ~ 11775 4925
+Wire Wire Line
+	11775 4925 12925 4925
+Wire Wire Line
+	19125 8575 18950 8575
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 6124A65F
+P 19025 8050
+F 0 "D?" V 18979 8129 50  0000 L CNN
+F 1 "SD36_SOD323" V 19070 8129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 19025 7850 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 19025 8050 50  0001 C CNN
+	1    19025 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 20675 8075
+Wire Wire Line
+	20675 8575 20675 8075
+Wire Wire Line
+	20675 7625 20675 7125
+Connection ~ 20675 7625
+Wire Wire Line
+	20675 8575 19425 8575
+Connection ~ 20675 8575
+Wire Wire Line
+	20675 7125 19625 7125
+Wire Wire Line
+	19175 8050 19625 8050
+Wire Wire Line
+	19625 8050 19625 7125
+Connection ~ 19625 7125
+Wire Wire Line
+	19625 7125 19175 7125
+Wire Wire Line
+	18875 8050 18475 8050
+Wire Wire Line
+	15775 8575 15600 8575
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 6124A6C9
+P 15675 8050
+F 0 "D?" V 15629 8129 50  0000 L CNN
+F 1 "SD36_SOD323" V 15720 8129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 15675 7850 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 15675 8050 50  0001 C CNN
+	1    15675 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 17325 8075
+Wire Wire Line
+	17325 8575 17325 8075
+Wire Wire Line
+	17325 7625 17325 7125
+Connection ~ 17325 7625
+Wire Wire Line
+	17325 8575 16075 8575
+Wire Wire Line
+	18650 8575 18475 8575
+Connection ~ 17325 8575
+Wire Wire Line
+	17325 7125 16275 7125
+Wire Wire Line
+	15825 8050 16275 8050
+Wire Wire Line
+	16275 8050 16275 7125
+Connection ~ 16275 7125
+Wire Wire Line
+	16275 7125 15825 7125
+Wire Wire Line
+	15525 8050 15125 8050
+Wire Wire Line
+	12425 8575 12250 8575
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 6124A733
+P 12325 8050
+F 0 "D?" V 12279 8129 50  0000 L CNN
+F 1 "SD36_SOD323" V 12370 8129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 12325 7850 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 12325 8050 50  0001 C CNN
+	1    12325 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 13975 8075
+Wire Wire Line
+	13975 8575 13975 8075
+Wire Wire Line
+	13975 7625 13975 7125
+Connection ~ 13975 7625
+Wire Wire Line
+	13975 8575 12725 8575
+Wire Wire Line
+	15300 8575 15125 8575
+Connection ~ 13975 8575
+Wire Wire Line
+	13975 7125 12925 7125
+Wire Wire Line
+	12475 8050 12925 8050
+Wire Wire Line
+	12925 8050 12925 7125
+Connection ~ 12925 7125
+Wire Wire Line
+	12925 7125 12475 7125
+Wire Wire Line
+	12175 8050 11775 8050
+Wire Wire Line
+	15125 8050 15125 8575
+Connection ~ 15125 8575
+Wire Wire Line
+	15125 8575 13975 8575
+Wire Wire Line
+	15525 7125 13975 7125
+Connection ~ 13975 7125
+Wire Wire Line
+	18875 7125 17325 7125
+Connection ~ 17325 7125
+Wire Wire Line
+	18475 8050 18475 8575
+Connection ~ 18475 8575
+Wire Wire Line
+	18475 8575 17325 8575
+Wire Wire Line
+	9075 8575 8900 8575
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 6124A7A7
+P 8975 8050
+F 0 "D?" V 8929 8129 50  0000 L CNN
+F 1 "SD36_SOD323" V 9020 8129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 8975 7850 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 8975 8050 50  0001 C CNN
+	1    8975 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 10625 8075
+Wire Wire Line
+	10625 8575 10625 8075
+Wire Wire Line
+	10625 7625 10625 7125
+Connection ~ 10625 7625
+Wire Wire Line
+	10625 8575 9375 8575
+Wire Wire Line
+	11950 8575 11775 8575
+Connection ~ 10625 8575
+Wire Wire Line
+	10625 7125 9575 7125
+Wire Wire Line
+	9125 8050 9575 8050
+Wire Wire Line
+	9575 8050 9575 7125
+Connection ~ 9575 7125
+Wire Wire Line
+	9575 7125 9125 7125
+Wire Wire Line
+	8825 8050 8425 8050
+Wire Wire Line
+	5725 8575 5550 8575
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 6124A811
+P 5625 8050
+F 0 "D?" V 5579 8129 50  0000 L CNN
+F 1 "SD36_SOD323" V 5670 8129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 5625 7850 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 5625 8050 50  0001 C CNN
+	1    5625 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7275 8075
+Wire Wire Line
+	7275 8575 7275 8075
+Wire Wire Line
+	7275 7625 7275 7125
+Connection ~ 7275 7625
+Wire Wire Line
+	7275 8575 6025 8575
+Wire Wire Line
+	8600 8575 8425 8575
+Connection ~ 7275 8575
+Wire Wire Line
+	7275 7125 6225 7125
+Wire Wire Line
+	5775 8050 6225 8050
+Wire Wire Line
+	6225 8050 6225 7125
+Connection ~ 6225 7125
+Wire Wire Line
+	6225 7125 5775 7125
+Wire Wire Line
+	5475 8050 5075 8050
+$Comp
+L Diode:SD36_SOD323 D?
+U 1 1 6124A87B
+P 2275 8050
+F 0 "D?" V 2229 8129 50  0000 L CNN
+F 1 "SD36_SOD323" V 2320 8129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 2275 7850 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" H 2275 8050 50  0001 C CNN
+	1    2275 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3925 8075
+Wire Wire Line
+	3925 8575 3925 8075
+Wire Wire Line
+	3925 7625 3925 7125
+Connection ~ 3925 7625
+Wire Wire Line
+	3925 8575 2675 8575
+Wire Wire Line
+	5250 8575 5075 8575
+Connection ~ 3925 8575
+Wire Wire Line
+	3925 7125 2875 7125
+Wire Wire Line
+	2425 8050 2875 8050
+Wire Wire Line
+	2875 8050 2875 7125
+Wire Wire Line
+	2125 8050 1725 8050
+Wire Wire Line
+	5075 8050 5075 8575
+Connection ~ 5075 8575
+Wire Wire Line
+	5075 8575 3925 8575
+Wire Wire Line
+	5475 7125 3925 7125
+Connection ~ 3925 7125
+Wire Wire Line
+	8825 7125 7275 7125
+Connection ~ 7275 7125
+Wire Wire Line
+	8425 8050 8425 8575
+Connection ~ 8425 8575
+Wire Wire Line
+	8425 8575 7275 8575
+Wire Wire Line
+	12175 7125 10625 7125
+Connection ~ 10625 7125
+Wire Wire Line
+	11775 8050 11775 8575
+Connection ~ 11775 8575
+Wire Wire Line
+	11775 8575 10625 8575
+Wire Wire Line
+	21425 6375 21825 6375
+Wire Wire Line
+	21825 6375 21825 7125
+Wire Wire Line
+	21825 7125 20675 7125
+Connection ~ 20675 7125
+Wire Wire Line
+	22800 8575 22800 4925
+Wire Wire Line
+	22800 4925 21825 4925
+Wire Wire Line
+	20675 8575 22800 8575
+Wire Wire Line
+	21825 5450 21825 4925
+Connection ~ 21825 4925
+Wire Wire Line
+	21825 4925 21650 4925
+Wire Wire Line
+	1725 8050 1725 8575
+Connection ~ 2875 6375
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6174C182
+P 2875 6450
+F 0 "#PWR?" H 2875 6200 50  0001 C CNN
+F 1 "GNDREF" H 2880 6277 50  0000 C CNN
+F 2 "" H 2875 6450 50  0001 C CNN
+F 3 "" H 2875 6450 50  0001 C CNN
+	1    2875 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 5875 2875 6375
+Wire Wire Line
+	2875 6450 2875 6375
+Wire Wire Line
+	1000 4925 1350 4925
+Wire Wire Line
+	2125 4925 2250 4925
+Connection ~ 2875 4925
+Wire Wire Line
+	1725 8575 1725 9275
+Connection ~ 1725 8575
+$Comp
+L Device:CP1 C?
+U 1 1 61AA7698
+P 3425 9875
+F 0 "C?" H 3540 9921 50  0000 L CNN
+F 1 "10m/450V" H 3540 9830 50  0000 L CNN
+F 2 "" H 3425 9875 50  0001 C CNN
+F 3 "~" H 3425 9875 50  0001 C CNN
+	1    3425 9875
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9225 10500 9225 10025
+Wire Wire Line
+	9225 9275 9225 9725
+Wire Wire Line
+	1725 9275 3425 9275
+Wire Wire Line
+	8700 10025 8700 10500
+Connection ~ 8700 10500
+Wire Wire Line
+	8700 10500 9225 10500
+Wire Wire Line
+	8700 9725 8700 9275
+Connection ~ 8700 9275
+Wire Wire Line
+	8700 9275 9225 9275
+Wire Wire Line
+	8175 9725 8175 9275
+Connection ~ 8175 9275
+Wire Wire Line
+	8175 9275 8700 9275
+Wire Wire Line
+	8175 10025 8175 10500
+Connection ~ 8175 10500
+Wire Wire Line
+	8175 10500 8700 10500
+Wire Wire Line
+	7650 10025 7650 10500
+Connection ~ 7650 10500
+Wire Wire Line
+	7650 10500 8175 10500
+Wire Wire Line
+	7100 10025 7100 10500
+Connection ~ 7100 10500
+Wire Wire Line
+	7100 10500 7650 10500
+Wire Wire Line
+	6575 10025 6575 10500
+Connection ~ 6575 10500
+Wire Wire Line
+	6575 10500 7100 10500
+Wire Wire Line
+	6050 10025 6050 10500
+Connection ~ 6050 10500
+Wire Wire Line
+	6050 10500 6575 10500
+Wire Wire Line
+	5525 10025 5525 10500
+Connection ~ 5525 10500
+Wire Wire Line
+	5525 10500 6050 10500
+Wire Wire Line
+	5000 10025 5000 10500
+Connection ~ 5000 10500
+Wire Wire Line
+	5000 10500 5525 10500
+Wire Wire Line
+	4475 10025 4475 10500
+Connection ~ 4475 10500
+Wire Wire Line
+	4475 10500 5000 10500
+Wire Wire Line
+	3950 10025 3950 10500
+Connection ~ 3950 10500
+Wire Wire Line
+	3950 10500 4475 10500
+Wire Wire Line
+	3425 10025 3425 10500
+Connection ~ 3425 10500
+Wire Wire Line
+	3425 10500 3950 10500
+Wire Wire Line
+	3425 9725 3425 9275
+Connection ~ 3425 9275
+Wire Wire Line
+	3425 9275 3950 9275
+Wire Wire Line
+	3950 9725 3950 9275
+Connection ~ 3950 9275
+Wire Wire Line
+	3950 9275 4475 9275
+Wire Wire Line
+	4475 9725 4475 9275
+Connection ~ 4475 9275
+Wire Wire Line
+	4475 9275 5000 9275
+Wire Wire Line
+	5000 9725 5000 9275
+Connection ~ 5000 9275
+Wire Wire Line
+	5000 9275 5525 9275
+Wire Wire Line
+	5525 9725 5525 9275
+Connection ~ 5525 9275
+Wire Wire Line
+	5525 9275 6050 9275
+Wire Wire Line
+	6050 9725 6050 9275
+Connection ~ 6050 9275
+Wire Wire Line
+	6050 9275 6575 9275
+Wire Wire Line
+	6575 9725 6575 9275
+Connection ~ 6575 9275
+Wire Wire Line
+	6575 9275 7100 9275
+Wire Wire Line
+	7100 9725 7100 9275
+Connection ~ 7100 9275
+Wire Wire Line
+	7100 9275 7650 9275
+Wire Wire Line
+	7650 9725 7650 9275
+Connection ~ 7650 9275
+Wire Wire Line
+	7650 9275 8175 9275
+Wire Wire Line
+	1725 8575 2375 8575
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 622778DB
+P 9750 9275
+F 0 "J?" H 9778 9301 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 9778 9210 50  0000 L CNN
+F 2 "" H 9750 9275 50  0001 C CNN
+F 3 "~" H 9750 9275 50  0001 C CNN
+	1    9750 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62278CD3
+P 9750 10500
+F 0 "J?" H 9778 10526 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 9778 10435 50  0000 L CNN
+F 2 "" H 9750 10500 50  0001 C CNN
+F 3 "~" H 9750 10500 50  0001 C CNN
+	1    9750 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9225 10500 9550 10500
+Connection ~ 9225 10500
+Wire Wire Line
+	9225 9275 9550 9275
+Connection ~ 9225 9275
+$Comp
+L Device:R_POT_US RV?
+U 1 1 611203BF
+P 1500 4925
+F 0 "RV?" V 1387 4925 50  0000 C CNN
+F 1 "2k" V 1296 4925 50  0000 C CNN
+F 2 "" H 1500 4925 50  0001 C CNN
+F 3 "~" H 1500 4925 50  0001 C CNN
+	1    1500 4925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 4775 1500 4700
+Wire Wire Line
+	1500 4700 1000 4700
+Wire Wire Line
+	1000 4700 1000 4925
+Connection ~ 1000 4925
+Wire Wire Line
+	1000 4925 1000 5550
+$Comp
+L Device:R_US R?
+U 1 1 61176D34
+P 4525 6375
+F 0 "R?" V 4320 6375 50  0000 C CNN
+F 1 "1k" V 4411 6375 50  0000 C CNN
+F 2 "" V 4565 6365 50  0001 C CNN
+F 3 "~" H 4525 6375 50  0001 C CNN
+	1    4525 6375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61179713
+P 7625 4925
+F 0 "R?" V 7420 4925 50  0000 C CNN
+F 1 "1k" V 7511 4925 50  0000 C CNN
+F 2 "" V 7665 4915 50  0001 C CNN
+F 3 "~" H 7625 4925 50  0001 C CNN
+	1    7625 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 611C4580
+P 7875 6375
+F 0 "R?" V 7670 6375 50  0000 C CNN
+F 1 "1k" V 7761 6375 50  0000 C CNN
+F 2 "" V 7915 6365 50  0001 C CNN
+F 3 "~" H 7875 6375 50  0001 C CNN
+	1    7875 6375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6120EBDD
+P 11225 6375
+F 0 "R?" V 11020 6375 50  0000 C CNN
+F 1 "1k" V 11111 6375 50  0000 C CNN
+F 2 "" V 11265 6365 50  0001 C CNN
+F 3 "~" H 11225 6375 50  0001 C CNN
+	1    11225 6375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6125863D
+P 10975 4925
+F 0 "R?" V 10770 4925 50  0000 C CNN
+F 1 "1k" V 10861 4925 50  0000 C CNN
+F 2 "" V 11015 4915 50  0001 C CNN
+F 3 "~" H 10975 4925 50  0001 C CNN
+	1    10975 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 612A323F
+P 14325 4925
+F 0 "R?" V 14120 4925 50  0000 C CNN
+F 1 "1k" V 14211 4925 50  0000 C CNN
+F 2 "" V 14365 4915 50  0001 C CNN
+F 3 "~" H 14325 4925 50  0001 C CNN
+	1    14325 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 612ECCD0
+P 14575 6375
+F 0 "R?" V 14370 6375 50  0000 C CNN
+F 1 "1k" V 14461 6375 50  0000 C CNN
+F 2 "" V 14615 6365 50  0001 C CNN
+F 3 "~" H 14575 6375 50  0001 C CNN
+	1    14575 6375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61337747
+P 17925 6375
+F 0 "R?" V 17720 6375 50  0000 C CNN
+F 1 "1k" V 17811 6375 50  0000 C CNN
+F 2 "" V 17965 6365 50  0001 C CNN
+F 3 "~" H 17925 6375 50  0001 C CNN
+	1    17925 6375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 613812FD
+P 17675 4925
+F 0 "R?" V 17470 4925 50  0000 C CNN
+F 1 "1k" V 17561 4925 50  0000 C CNN
+F 2 "" V 17715 4915 50  0001 C CNN
+F 3 "~" H 17675 4925 50  0001 C CNN
+	1    17675 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 613CB07E
+P 21025 4925
+F 0 "R?" V 20820 4925 50  0000 C CNN
+F 1 "1k" V 20911 4925 50  0000 C CNN
+F 2 "" V 21065 4915 50  0001 C CNN
+F 3 "~" H 21025 4925 50  0001 C CNN
+	1    21025 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 614148C1
+P 21275 6375
+F 0 "R?" V 21070 6375 50  0000 C CNN
+F 1 "1k" V 21161 6375 50  0000 C CNN
+F 2 "" V 21315 6365 50  0001 C CNN
+F 3 "~" H 21275 6375 50  0001 C CNN
+	1    21275 6375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6146C195
+P 19025 7125
+F 0 "R?" V 18820 7125 50  0000 C CNN
+F 1 "1k" V 18911 7125 50  0000 C CNN
+F 2 "" V 19065 7115 50  0001 C CNN
+F 3 "~" H 19025 7125 50  0001 C CNN
+	1    19025 7125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 614B6284
+P 19275 8575
+F 0 "R?" V 19070 8575 50  0000 C CNN
+F 1 "1k" V 19161 8575 50  0000 C CNN
+F 2 "" V 19315 8565 50  0001 C CNN
+F 3 "~" H 19275 8575 50  0001 C CNN
+	1    19275 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61500B33
+P 15675 7125
+F 0 "R?" V 15470 7125 50  0000 C CNN
+F 1 "1k" V 15561 7125 50  0000 C CNN
+F 2 "" V 15715 7115 50  0001 C CNN
+F 3 "~" H 15675 7125 50  0001 C CNN
+	1    15675 7125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6154AAF3
+P 15925 8575
+F 0 "R?" V 15720 8575 50  0000 C CNN
+F 1 "1k" V 15811 8575 50  0000 C CNN
+F 2 "" V 15965 8565 50  0001 C CNN
+F 3 "~" H 15925 8575 50  0001 C CNN
+	1    15925 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61594932
+P 12325 7125
+F 0 "R?" V 12120 7125 50  0000 C CNN
+F 1 "1k" V 12211 7125 50  0000 C CNN
+F 2 "" V 12365 7115 50  0001 C CNN
+F 3 "~" H 12325 7125 50  0001 C CNN
+	1    12325 7125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 615DE31D
+P 12575 8575
+F 0 "R?" V 12370 8575 50  0000 C CNN
+F 1 "1k" V 12461 8575 50  0000 C CNN
+F 2 "" V 12615 8565 50  0001 C CNN
+F 3 "~" H 12575 8575 50  0001 C CNN
+	1    12575 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6162989C
+P 8975 7125
+F 0 "R?" V 8770 7125 50  0000 C CNN
+F 1 "1k" V 8861 7125 50  0000 C CNN
+F 2 "" V 9015 7115 50  0001 C CNN
+F 3 "~" H 8975 7125 50  0001 C CNN
+	1    8975 7125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 616740B1
+P 9225 8575
+F 0 "R?" V 9020 8575 50  0000 C CNN
+F 1 "1k" V 9111 8575 50  0000 C CNN
+F 2 "" V 9265 8565 50  0001 C CNN
+F 3 "~" H 9225 8575 50  0001 C CNN
+	1    9225 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 616BEACF
+P 5875 8575
+F 0 "R?" V 5670 8575 50  0000 C CNN
+F 1 "1k" V 5761 8575 50  0000 C CNN
+F 2 "" V 5915 8565 50  0001 C CNN
+F 3 "~" H 5875 8575 50  0001 C CNN
+	1    5875 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6170902C
+P 5625 7125
+F 0 "R?" V 5420 7125 50  0000 C CNN
+F 1 "1k" V 5511 7125 50  0000 C CNN
+F 2 "" V 5665 7115 50  0001 C CNN
+F 3 "~" H 5625 7125 50  0001 C CNN
+	1    5625 7125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61752F6B
+P 2525 8575
+F 0 "R?" V 2320 8575 50  0000 C CNN
+F 1 "1k" V 2411 8575 50  0000 C CNN
+F 2 "" V 2565 8565 50  0001 C CNN
+F 3 "~" H 2525 8575 50  0001 C CNN
+	1    2525 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 617B69E1
+P 4750 4925
+F 0 "L?" V 4940 4925 50  0000 C CNN
+F 1 "10m/8A" V 4849 4925 50  0000 C CNN
+F 2 "" H 4750 4925 50  0001 C CNN
+F 3 "~" H 4750 4925 50  0001 C CNN
+	1    4750 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61800977
+P 8100 4925
+F 0 "L?" V 8290 4925 50  0000 C CNN
+F 1 "10m/8A" V 8199 4925 50  0000 C CNN
+F 2 "" H 8100 4925 50  0001 C CNN
+F 3 "~" H 8100 4925 50  0001 C CNN
+	1    8100 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 6184A610
+P 11450 4925
+F 0 "L?" V 11640 4925 50  0000 C CNN
+F 1 "10m/8A" V 11549 4925 50  0000 C CNN
+F 2 "" H 11450 4925 50  0001 C CNN
+F 3 "~" H 11450 4925 50  0001 C CNN
+	1    11450 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61894276
+P 14800 4925
+F 0 "L?" V 14990 4925 50  0000 C CNN
+F 1 "10m/8A" V 14899 4925 50  0000 C CNN
+F 2 "" H 14800 4925 50  0001 C CNN
+F 3 "~" H 14800 4925 50  0001 C CNN
+	1    14800 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 618DDB76
+P 18150 4925
+F 0 "L?" V 18340 4925 50  0000 C CNN
+F 1 "10m/8A" V 18249 4925 50  0000 C CNN
+F 2 "" H 18150 4925 50  0001 C CNN
+F 3 "~" H 18150 4925 50  0001 C CNN
+	1    18150 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 619277F3
+P 21500 4925
+F 0 "L?" V 21690 4925 50  0000 C CNN
+F 1 "10m/8A" V 21599 4925 50  0000 C CNN
+F 2 "" H 21500 4925 50  0001 C CNN
+F 3 "~" H 21500 4925 50  0001 C CNN
+	1    21500 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61972308
+P 18800 8575
+F 0 "L?" V 18990 8575 50  0000 C CNN
+F 1 "10m/8A" V 18899 8575 50  0000 C CNN
+F 2 "" H 18800 8575 50  0001 C CNN
+F 3 "~" H 18800 8575 50  0001 C CNN
+	1    18800 8575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 619BBBEB
+P 15450 8575
+F 0 "L?" V 15640 8575 50  0000 C CNN
+F 1 "10m/8A" V 15549 8575 50  0000 C CNN
+F 2 "" H 15450 8575 50  0001 C CNN
+F 3 "~" H 15450 8575 50  0001 C CNN
+	1    15450 8575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61A05670
+P 12100 8575
+F 0 "L?" V 12290 8575 50  0000 C CNN
+F 1 "10m/8A" V 12199 8575 50  0000 C CNN
+F 2 "" H 12100 8575 50  0001 C CNN
+F 3 "~" H 12100 8575 50  0001 C CNN
+	1    12100 8575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61A4F357
+P 8750 8575
+F 0 "L?" V 8940 8575 50  0000 C CNN
+F 1 "10m/8A" V 8849 8575 50  0000 C CNN
+F 2 "" H 8750 8575 50  0001 C CNN
+F 3 "~" H 8750 8575 50  0001 C CNN
+	1    8750 8575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61A994F8
+P 5400 8575
+F 0 "L?" V 5590 8575 50  0000 C CNN
+F 1 "10m/8A" V 5499 8575 50  0000 C CNN
+F 2 "" H 5400 8575 50  0001 C CNN
+F 3 "~" H 5400 8575 50  0001 C CNN
+	1    5400 8575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61AE5427
+P 2375 5650
+F 0 "C?" H 2490 5696 50  0000 L CNN
+F 1 "10u" H 2490 5605 50  0000 L CNN
+F 2 "" H 2413 5500 50  0001 C CNN
+F 3 "~" H 2375 5650 50  0001 C CNN
+	1    2375 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61AE5725
+P 2700 5650
+F 0 "C?" H 2815 5696 50  0000 L CNN
+F 1 "10u" H 2815 5605 50  0000 L CNN
+F 2 "" H 2738 5500 50  0001 C CNN
+F 3 "~" H 2700 5650 50  0001 C CNN
+	1    2700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61AE5914
+P 3025 5650
+F 0 "C?" H 3140 5696 50  0000 L CNN
+F 1 "10u" H 3140 5605 50  0000 L CNN
+F 2 "" H 3063 5500 50  0001 C CNN
+F 3 "~" H 3025 5650 50  0001 C CNN
+	1    3025 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5500 3350 5425
+$Comp
+L Device:C C?
+U 1 1 61AE6391
+P 3350 5650
+F 0 "C?" H 3465 5696 50  0000 L CNN
+F 1 "10u" H 3465 5605 50  0000 L CNN
+F 2 "" H 3388 5500 50  0001 C CNN
+F 3 "~" H 3350 5650 50  0001 C CNN
+	1    3350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61AE66CB
+P 3675 5650
+F 0 "C?" H 3790 5696 50  0000 L CNN
+F 1 "10u" H 3790 5605 50  0000 L CNN
+F 2 "" H 3713 5500 50  0001 C CNN
+F 3 "~" H 3675 5650 50  0001 C CNN
+	1    3675 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 5875 6375 5875
+Wire Wire Line
+	5400 5875 5725 5875
+Wire Wire Line
+	5400 5425 5725 5425
+Wire Wire Line
+	6225 5425 6375 5425
+Wire Wire Line
+	9575 5875 9725 5875
+Wire Wire Line
+	8750 5875 9075 5875
+Wire Wire Line
+	8750 5425 9075 5425
+Wire Wire Line
+	9575 5425 9725 5425
+Wire Wire Line
+	12925 5875 13075 5875
+Wire Wire Line
+	12100 5875 12425 5875
+Wire Wire Line
+	12100 5425 12425 5425
+Wire Wire Line
+	12925 5425 13075 5425
+Wire Wire Line
+	16275 5875 16425 5875
+Wire Wire Line
+	15450 5875 15775 5875
+Wire Wire Line
+	15450 5425 15775 5425
+Wire Wire Line
+	16275 5425 16425 5425
+Wire Wire Line
+	19625 5875 19775 5875
+Wire Wire Line
+	18800 5875 19125 5875
+Wire Wire Line
+	18800 5425 19125 5425
+Wire Wire Line
+	19625 5425 19775 5425
+$Comp
+L Device:C C?
+U 1 1 61C2F1BF
+P 5400 5650
+F 0 "C?" H 5515 5696 50  0000 L CNN
+F 1 "10u" H 5515 5605 50  0000 L CNN
+F 2 "" H 5438 5500 50  0001 C CNN
+F 3 "~" H 5400 5650 50  0001 C CNN
+	1    5400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 5500 7025 5425
+Wire Wire Line
+	5400 5425 5400 5500
+Wire Wire Line
+	5400 5800 5400 5875
+Wire Wire Line
+	7025 5875 7025 5800
+Wire Wire Line
+	6700 5800 6700 5875
+Wire Wire Line
+	6375 5800 6375 5875
+Wire Wire Line
+	6050 5800 6050 5875
+Wire Wire Line
+	5725 5800 5725 5875
+Wire Wire Line
+	5725 5500 5725 5425
+Wire Wire Line
+	6050 5500 6050 5425
+Wire Wire Line
+	6375 5500 6375 5425
+$Comp
+L Device:C C?
+U 1 1 61C2F1D0
+P 5725 5650
+F 0 "C?" H 5840 5696 50  0000 L CNN
+F 1 "10u" H 5840 5605 50  0000 L CNN
+F 2 "" H 5763 5500 50  0001 C CNN
+F 3 "~" H 5725 5650 50  0001 C CNN
+	1    5725 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C2F1D6
+P 6050 5650
+F 0 "C?" H 6165 5696 50  0000 L CNN
+F 1 "10u" H 6165 5605 50  0000 L CNN
+F 2 "" H 6088 5500 50  0001 C CNN
+F 3 "~" H 6050 5650 50  0001 C CNN
+	1    6050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C2F1DC
+P 6375 5650
+F 0 "C?" H 6490 5696 50  0000 L CNN
+F 1 "10u" H 6490 5605 50  0000 L CNN
+F 2 "" H 6413 5500 50  0001 C CNN
+F 3 "~" H 6375 5650 50  0001 C CNN
+	1    6375 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5500 6700 5425
+$Comp
+L Device:C C?
+U 1 1 61C2F1E3
+P 6700 5650
+F 0 "C?" H 6815 5696 50  0000 L CNN
+F 1 "10u" H 6815 5605 50  0000 L CNN
+F 2 "" H 6738 5500 50  0001 C CNN
+F 3 "~" H 6700 5650 50  0001 C CNN
+	1    6700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C2F1E9
+P 7025 5650
+F 0 "C?" H 7140 5696 50  0000 L CNN
+F 1 "10u" H 7140 5605 50  0000 L CNN
+F 2 "" H 7063 5500 50  0001 C CNN
+F 3 "~" H 7025 5650 50  0001 C CNN
+	1    7025 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C65B04
+P 8750 5650
+F 0 "C?" H 8865 5696 50  0000 L CNN
+F 1 "10u" H 8865 5605 50  0000 L CNN
+F 2 "" H 8788 5500 50  0001 C CNN
+F 3 "~" H 8750 5650 50  0001 C CNN
+	1    8750 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10375 5500 10375 5425
+Wire Wire Line
+	8750 5425 8750 5500
+Wire Wire Line
+	8750 5800 8750 5875
+Wire Wire Line
+	10375 5875 10375 5800
+Wire Wire Line
+	10050 5800 10050 5875
+Wire Wire Line
+	9725 5800 9725 5875
+Wire Wire Line
+	9400 5800 9400 5875
+Wire Wire Line
+	9075 5800 9075 5875
+Wire Wire Line
+	9075 5500 9075 5425
+Wire Wire Line
+	9400 5500 9400 5425
+Wire Wire Line
+	9725 5500 9725 5425
+$Comp
+L Device:C C?
+U 1 1 61C65B15
+P 9075 5650
+F 0 "C?" H 9190 5696 50  0000 L CNN
+F 1 "10u" H 9190 5605 50  0000 L CNN
+F 2 "" H 9113 5500 50  0001 C CNN
+F 3 "~" H 9075 5650 50  0001 C CNN
+	1    9075 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C65B1B
+P 9400 5650
+F 0 "C?" H 9515 5696 50  0000 L CNN
+F 1 "10u" H 9515 5605 50  0000 L CNN
+F 2 "" H 9438 5500 50  0001 C CNN
+F 3 "~" H 9400 5650 50  0001 C CNN
+	1    9400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C65B21
+P 9725 5650
+F 0 "C?" H 9840 5696 50  0000 L CNN
+F 1 "10u" H 9840 5605 50  0000 L CNN
+F 2 "" H 9763 5500 50  0001 C CNN
+F 3 "~" H 9725 5650 50  0001 C CNN
+	1    9725 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5500 10050 5425
+$Comp
+L Device:C C?
+U 1 1 61C65B28
+P 10050 5650
+F 0 "C?" H 10165 5696 50  0000 L CNN
+F 1 "10u" H 10165 5605 50  0000 L CNN
+F 2 "" H 10088 5500 50  0001 C CNN
+F 3 "~" H 10050 5650 50  0001 C CNN
+	1    10050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C65B2E
+P 10375 5650
+F 0 "C?" H 10490 5696 50  0000 L CNN
+F 1 "10u" H 10490 5605 50  0000 L CNN
+F 2 "" H 10413 5500 50  0001 C CNN
+F 3 "~" H 10375 5650 50  0001 C CNN
+	1    10375 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C9DAA3
+P 12100 5650
+F 0 "C?" H 12215 5696 50  0000 L CNN
+F 1 "10u" H 12215 5605 50  0000 L CNN
+F 2 "" H 12138 5500 50  0001 C CNN
+F 3 "~" H 12100 5650 50  0001 C CNN
+	1    12100 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13725 5500 13725 5425
+Wire Wire Line
+	12100 5425 12100 5500
+Wire Wire Line
+	12100 5800 12100 5875
+Wire Wire Line
+	13725 5875 13725 5800
+Wire Wire Line
+	13400 5800 13400 5875
+Wire Wire Line
+	13075 5800 13075 5875
+Wire Wire Line
+	12750 5800 12750 5875
+Wire Wire Line
+	12425 5800 12425 5875
+Wire Wire Line
+	12425 5500 12425 5425
+Wire Wire Line
+	12750 5500 12750 5425
+Wire Wire Line
+	13075 5500 13075 5425
+$Comp
+L Device:C C?
+U 1 1 61C9DAB4
+P 12425 5650
+F 0 "C?" H 12540 5696 50  0000 L CNN
+F 1 "10u" H 12540 5605 50  0000 L CNN
+F 2 "" H 12463 5500 50  0001 C CNN
+F 3 "~" H 12425 5650 50  0001 C CNN
+	1    12425 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C9DABA
+P 12750 5650
+F 0 "C?" H 12865 5696 50  0000 L CNN
+F 1 "10u" H 12865 5605 50  0000 L CNN
+F 2 "" H 12788 5500 50  0001 C CNN
+F 3 "~" H 12750 5650 50  0001 C CNN
+	1    12750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C9DAC0
+P 13075 5650
+F 0 "C?" H 13190 5696 50  0000 L CNN
+F 1 "10u" H 13190 5605 50  0000 L CNN
+F 2 "" H 13113 5500 50  0001 C CNN
+F 3 "~" H 13075 5650 50  0001 C CNN
+	1    13075 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 5500 13400 5425
+$Comp
+L Device:C C?
+U 1 1 61C9DAC7
+P 13400 5650
+F 0 "C?" H 13515 5696 50  0000 L CNN
+F 1 "10u" H 13515 5605 50  0000 L CNN
+F 2 "" H 13438 5500 50  0001 C CNN
+F 3 "~" H 13400 5650 50  0001 C CNN
+	1    13400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C9DACD
+P 13725 5650
+F 0 "C?" H 13840 5696 50  0000 L CNN
+F 1 "10u" H 13840 5605 50  0000 L CNN
+F 2 "" H 13763 5500 50  0001 C CNN
+F 3 "~" H 13725 5650 50  0001 C CNN
+	1    13725 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61CD9156
+P 15450 5650
+F 0 "C?" H 15565 5696 50  0000 L CNN
+F 1 "10u" H 15565 5605 50  0000 L CNN
+F 2 "" H 15488 5500 50  0001 C CNN
+F 3 "~" H 15450 5650 50  0001 C CNN
+	1    15450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17075 5500 17075 5425
+Wire Wire Line
+	15450 5425 15450 5500
+Wire Wire Line
+	15450 5800 15450 5875
+Wire Wire Line
+	17075 5875 17075 5800
+Wire Wire Line
+	16750 5800 16750 5875
+Wire Wire Line
+	16425 5800 16425 5875
+Wire Wire Line
+	16100 5800 16100 5875
+Wire Wire Line
+	15775 5800 15775 5875
+Wire Wire Line
+	15775 5500 15775 5425
+Wire Wire Line
+	16100 5500 16100 5425
+Wire Wire Line
+	16425 5500 16425 5425
+$Comp
+L Device:C C?
+U 1 1 61CD9167
+P 15775 5650
+F 0 "C?" H 15890 5696 50  0000 L CNN
+F 1 "10u" H 15890 5605 50  0000 L CNN
+F 2 "" H 15813 5500 50  0001 C CNN
+F 3 "~" H 15775 5650 50  0001 C CNN
+	1    15775 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61CD916D
+P 16100 5650
+F 0 "C?" H 16215 5696 50  0000 L CNN
+F 1 "10u" H 16215 5605 50  0000 L CNN
+F 2 "" H 16138 5500 50  0001 C CNN
+F 3 "~" H 16100 5650 50  0001 C CNN
+	1    16100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61CD9173
+P 16425 5650
+F 0 "C?" H 16540 5696 50  0000 L CNN
+F 1 "10u" H 16540 5605 50  0000 L CNN
+F 2 "" H 16463 5500 50  0001 C CNN
+F 3 "~" H 16425 5650 50  0001 C CNN
+	1    16425 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16750 5500 16750 5425
+$Comp
+L Device:C C?
+U 1 1 61CD917A
+P 16750 5650
+F 0 "C?" H 16865 5696 50  0000 L CNN
+F 1 "10u" H 16865 5605 50  0000 L CNN
+F 2 "" H 16788 5500 50  0001 C CNN
+F 3 "~" H 16750 5650 50  0001 C CNN
+	1    16750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61CD9180
+P 17075 5650
+F 0 "C?" H 17190 5696 50  0000 L CNN
+F 1 "10u" H 17190 5605 50  0000 L CNN
+F 2 "" H 17113 5500 50  0001 C CNN
+F 3 "~" H 17075 5650 50  0001 C CNN
+	1    17075 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D15C13
+P 18800 5650
+F 0 "C?" H 18915 5696 50  0000 L CNN
+F 1 "10u" H 18915 5605 50  0000 L CNN
+F 2 "" H 18838 5500 50  0001 C CNN
+F 3 "~" H 18800 5650 50  0001 C CNN
+	1    18800 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20425 5500 20425 5425
+Wire Wire Line
+	18800 5425 18800 5500
+Wire Wire Line
+	18800 5800 18800 5875
+Wire Wire Line
+	20425 5875 20425 5800
+Wire Wire Line
+	20100 5800 20100 5875
+Wire Wire Line
+	19775 5800 19775 5875
+Wire Wire Line
+	19450 5800 19450 5875
+Wire Wire Line
+	19125 5800 19125 5875
+Wire Wire Line
+	19125 5500 19125 5425
+Wire Wire Line
+	19450 5500 19450 5425
+Wire Wire Line
+	19775 5500 19775 5425
+$Comp
+L Device:C C?
+U 1 1 61D15C24
+P 19125 5650
+F 0 "C?" H 19240 5696 50  0000 L CNN
+F 1 "10u" H 19240 5605 50  0000 L CNN
+F 2 "" H 19163 5500 50  0001 C CNN
+F 3 "~" H 19125 5650 50  0001 C CNN
+	1    19125 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D15C2A
+P 19450 5650
+F 0 "C?" H 19565 5696 50  0000 L CNN
+F 1 "10u" H 19565 5605 50  0000 L CNN
+F 2 "" H 19488 5500 50  0001 C CNN
+F 3 "~" H 19450 5650 50  0001 C CNN
+	1    19450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D15C30
+P 19775 5650
+F 0 "C?" H 19890 5696 50  0000 L CNN
+F 1 "10u" H 19890 5605 50  0000 L CNN
+F 2 "" H 19813 5500 50  0001 C CNN
+F 3 "~" H 19775 5650 50  0001 C CNN
+	1    19775 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20100 5500 20100 5425
+$Comp
+L Device:C C?
+U 1 1 61D15C37
+P 20100 5650
+F 0 "C?" H 20215 5696 50  0000 L CNN
+F 1 "10u" H 20215 5605 50  0000 L CNN
+F 2 "" H 20138 5500 50  0001 C CNN
+F 3 "~" H 20100 5650 50  0001 C CNN
+	1    20100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D15C3D
+P 20425 5650
+F 0 "C?" H 20540 5696 50  0000 L CNN
+F 1 "10u" H 20540 5605 50  0000 L CNN
+F 2 "" H 20463 5500 50  0001 C CNN
+F 3 "~" H 20425 5650 50  0001 C CNN
+	1    20425 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 7625 3450 7625
+Wire Wire Line
+	3925 7625 4100 7625
+Wire Wire Line
+	3925 8075 4100 8075
+Wire Wire Line
+	3125 8075 3450 8075
+Wire Wire Line
+	6475 7625 6800 7625
+Wire Wire Line
+	7275 7625 7450 7625
+Wire Wire Line
+	7275 8075 7450 8075
+Wire Wire Line
+	6475 8075 6800 8075
+Wire Wire Line
+	9825 7625 10150 7625
+Wire Wire Line
+	10625 7625 10800 7625
+Wire Wire Line
+	10625 8075 10800 8075
+Wire Wire Line
+	9825 8075 10150 8075
+Wire Wire Line
+	13175 7625 13500 7625
+Wire Wire Line
+	13975 7625 14150 7625
+Wire Wire Line
+	13975 8075 14150 8075
+Wire Wire Line
+	13175 8075 13500 8075
+Wire Wire Line
+	16525 7625 16850 7625
+Wire Wire Line
+	17325 7625 17500 7625
+Wire Wire Line
+	17325 8075 17500 8075
+Wire Wire Line
+	16525 8075 16850 8075
+Wire Wire Line
+	19875 7625 20200 7625
+Wire Wire Line
+	20675 7625 20850 7625
+Wire Wire Line
+	20675 8075 20850 8075
+Wire Wire Line
+	19875 8075 20200 8075
+$Comp
+L Device:C C?
+U 1 1 61E6BBF4
+P 3125 7850
+F 0 "C?" H 3240 7896 50  0000 L CNN
+F 1 "10u" H 3240 7805 50  0000 L CNN
+F 2 "" H 3163 7700 50  0001 C CNN
+F 3 "~" H 3125 7850 50  0001 C CNN
+	1    3125 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7700 4750 7625
+Wire Wire Line
+	3125 7625 3125 7700
+Wire Wire Line
+	3125 8000 3125 8075
+Wire Wire Line
+	4750 8075 4750 8000
+Wire Wire Line
+	4425 8000 4425 8075
+Wire Wire Line
+	4100 8000 4100 8075
+Wire Wire Line
+	3775 8000 3775 8075
+Wire Wire Line
+	3450 8000 3450 8075
+Wire Wire Line
+	3450 7700 3450 7625
+Wire Wire Line
+	3775 7700 3775 7625
+Wire Wire Line
+	4100 7700 4100 7625
+$Comp
+L Device:C C?
+U 1 1 61E6BC05
+P 3450 7850
+F 0 "C?" H 3565 7896 50  0000 L CNN
+F 1 "10u" H 3565 7805 50  0000 L CNN
+F 2 "" H 3488 7700 50  0001 C CNN
+F 3 "~" H 3450 7850 50  0001 C CNN
+	1    3450 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E6BC0B
+P 3775 7850
+F 0 "C?" H 3890 7896 50  0000 L CNN
+F 1 "10u" H 3890 7805 50  0000 L CNN
+F 2 "" H 3813 7700 50  0001 C CNN
+F 3 "~" H 3775 7850 50  0001 C CNN
+	1    3775 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E6BC11
+P 4100 7850
+F 0 "C?" H 4215 7896 50  0000 L CNN
+F 1 "10u" H 4215 7805 50  0000 L CNN
+F 2 "" H 4138 7700 50  0001 C CNN
+F 3 "~" H 4100 7850 50  0001 C CNN
+	1    4100 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 7700 4425 7625
+$Comp
+L Device:C C?
+U 1 1 61E6BC18
+P 4425 7850
+F 0 "C?" H 4540 7896 50  0000 L CNN
+F 1 "10u" H 4540 7805 50  0000 L CNN
+F 2 "" H 4463 7700 50  0001 C CNN
+F 3 "~" H 4425 7850 50  0001 C CNN
+	1    4425 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E6BC1E
+P 4750 7850
+F 0 "C?" H 4865 7896 50  0000 L CNN
+F 1 "10u" H 4865 7805 50  0000 L CNN
+F 2 "" H 4788 7700 50  0001 C CNN
+F 3 "~" H 4750 7850 50  0001 C CNN
+	1    4750 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E8F249
+P 6475 7850
+F 0 "C?" H 6590 7896 50  0000 L CNN
+F 1 "10u" H 6590 7805 50  0000 L CNN
+F 2 "" H 6513 7700 50  0001 C CNN
+F 3 "~" H 6475 7850 50  0001 C CNN
+	1    6475 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 7700 8100 7625
+Wire Wire Line
+	6475 7625 6475 7700
+Wire Wire Line
+	6475 8000 6475 8075
+Wire Wire Line
+	8100 8075 8100 8000
+Wire Wire Line
+	7775 8000 7775 8075
+Wire Wire Line
+	7450 8000 7450 8075
+Wire Wire Line
+	7125 8000 7125 8075
+Wire Wire Line
+	6800 8000 6800 8075
+Wire Wire Line
+	6800 7700 6800 7625
+Wire Wire Line
+	7125 7700 7125 7625
+Wire Wire Line
+	7450 7700 7450 7625
+$Comp
+L Device:C C?
+U 1 1 61E8F25A
+P 6800 7850
+F 0 "C?" H 6915 7896 50  0000 L CNN
+F 1 "10u" H 6915 7805 50  0000 L CNN
+F 2 "" H 6838 7700 50  0001 C CNN
+F 3 "~" H 6800 7850 50  0001 C CNN
+	1    6800 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E8F260
+P 7125 7850
+F 0 "C?" H 7240 7896 50  0000 L CNN
+F 1 "10u" H 7240 7805 50  0000 L CNN
+F 2 "" H 7163 7700 50  0001 C CNN
+F 3 "~" H 7125 7850 50  0001 C CNN
+	1    7125 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E8F266
+P 7450 7850
+F 0 "C?" H 7565 7896 50  0000 L CNN
+F 1 "10u" H 7565 7805 50  0000 L CNN
+F 2 "" H 7488 7700 50  0001 C CNN
+F 3 "~" H 7450 7850 50  0001 C CNN
+	1    7450 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 7700 7775 7625
+$Comp
+L Device:C C?
+U 1 1 61E8F26D
+P 7775 7850
+F 0 "C?" H 7890 7896 50  0000 L CNN
+F 1 "10u" H 7890 7805 50  0000 L CNN
+F 2 "" H 7813 7700 50  0001 C CNN
+F 3 "~" H 7775 7850 50  0001 C CNN
+	1    7775 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E8F273
+P 8100 7850
+F 0 "C?" H 8215 7896 50  0000 L CNN
+F 1 "10u" H 8215 7805 50  0000 L CNN
+F 2 "" H 8138 7700 50  0001 C CNN
+F 3 "~" H 8100 7850 50  0001 C CNN
+	1    8100 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EB53A6
+P 9825 7850
+F 0 "C?" H 9940 7896 50  0000 L CNN
+F 1 "10u" H 9940 7805 50  0000 L CNN
+F 2 "" H 9863 7700 50  0001 C CNN
+F 3 "~" H 9825 7850 50  0001 C CNN
+	1    9825 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 7700 11450 7625
+Wire Wire Line
+	9825 7625 9825 7700
+Wire Wire Line
+	9825 8000 9825 8075
+Wire Wire Line
+	11450 8075 11450 8000
+Wire Wire Line
+	11125 8000 11125 8075
+Wire Wire Line
+	10800 8000 10800 8075
+Wire Wire Line
+	10475 8000 10475 8075
+Wire Wire Line
+	10150 8000 10150 8075
+Wire Wire Line
+	10150 7700 10150 7625
+Wire Wire Line
+	10475 7700 10475 7625
+Wire Wire Line
+	10800 7700 10800 7625
+$Comp
+L Device:C C?
+U 1 1 61EB53B7
+P 10150 7850
+F 0 "C?" H 10265 7896 50  0000 L CNN
+F 1 "10u" H 10265 7805 50  0000 L CNN
+F 2 "" H 10188 7700 50  0001 C CNN
+F 3 "~" H 10150 7850 50  0001 C CNN
+	1    10150 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EB53BD
+P 10475 7850
+F 0 "C?" H 10590 7896 50  0000 L CNN
+F 1 "10u" H 10590 7805 50  0000 L CNN
+F 2 "" H 10513 7700 50  0001 C CNN
+F 3 "~" H 10475 7850 50  0001 C CNN
+	1    10475 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EB53C3
+P 10800 7850
+F 0 "C?" H 10915 7896 50  0000 L CNN
+F 1 "10u" H 10915 7805 50  0000 L CNN
+F 2 "" H 10838 7700 50  0001 C CNN
+F 3 "~" H 10800 7850 50  0001 C CNN
+	1    10800 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11125 7700 11125 7625
+$Comp
+L Device:C C?
+U 1 1 61EB53CA
+P 11125 7850
+F 0 "C?" H 11240 7896 50  0000 L CNN
+F 1 "10u" H 11240 7805 50  0000 L CNN
+F 2 "" H 11163 7700 50  0001 C CNN
+F 3 "~" H 11125 7850 50  0001 C CNN
+	1    11125 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EB53D0
+P 11450 7850
+F 0 "C?" H 11565 7896 50  0000 L CNN
+F 1 "10u" H 11565 7805 50  0000 L CNN
+F 2 "" H 11488 7700 50  0001 C CNN
+F 3 "~" H 11450 7850 50  0001 C CNN
+	1    11450 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EDCF99
+P 13175 7850
+F 0 "C?" H 13290 7896 50  0000 L CNN
+F 1 "10u" H 13290 7805 50  0000 L CNN
+F 2 "" H 13213 7700 50  0001 C CNN
+F 3 "~" H 13175 7850 50  0001 C CNN
+	1    13175 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 7700 14800 7625
+Wire Wire Line
+	13175 7625 13175 7700
+Wire Wire Line
+	13175 8000 13175 8075
+Wire Wire Line
+	14800 8075 14800 8000
+Wire Wire Line
+	14475 8000 14475 8075
+Wire Wire Line
+	14150 8000 14150 8075
+Wire Wire Line
+	13825 8000 13825 8075
+Wire Wire Line
+	13500 8000 13500 8075
+Wire Wire Line
+	13500 7700 13500 7625
+Wire Wire Line
+	13825 7700 13825 7625
+Wire Wire Line
+	14150 7700 14150 7625
+$Comp
+L Device:C C?
+U 1 1 61EDCFAA
+P 13500 7850
+F 0 "C?" H 13615 7896 50  0000 L CNN
+F 1 "10u" H 13615 7805 50  0000 L CNN
+F 2 "" H 13538 7700 50  0001 C CNN
+F 3 "~" H 13500 7850 50  0001 C CNN
+	1    13500 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EDCFB0
+P 13825 7850
+F 0 "C?" H 13940 7896 50  0000 L CNN
+F 1 "10u" H 13940 7805 50  0000 L CNN
+F 2 "" H 13863 7700 50  0001 C CNN
+F 3 "~" H 13825 7850 50  0001 C CNN
+	1    13825 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EDCFB6
+P 14150 7850
+F 0 "C?" H 14265 7896 50  0000 L CNN
+F 1 "10u" H 14265 7805 50  0000 L CNN
+F 2 "" H 14188 7700 50  0001 C CNN
+F 3 "~" H 14150 7850 50  0001 C CNN
+	1    14150 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14475 7700 14475 7625
+$Comp
+L Device:C C?
+U 1 1 61EDCFBD
+P 14475 7850
+F 0 "C?" H 14590 7896 50  0000 L CNN
+F 1 "10u" H 14590 7805 50  0000 L CNN
+F 2 "" H 14513 7700 50  0001 C CNN
+F 3 "~" H 14475 7850 50  0001 C CNN
+	1    14475 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EDCFC3
+P 14800 7850
+F 0 "C?" H 14915 7896 50  0000 L CNN
+F 1 "10u" H 14915 7805 50  0000 L CNN
+F 2 "" H 14838 7700 50  0001 C CNN
+F 3 "~" H 14800 7850 50  0001 C CNN
+	1    14800 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F067AC
+P 16525 7850
+F 0 "C?" H 16640 7896 50  0000 L CNN
+F 1 "10u" H 16640 7805 50  0000 L CNN
+F 2 "" H 16563 7700 50  0001 C CNN
+F 3 "~" H 16525 7850 50  0001 C CNN
+	1    16525 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18150 7700 18150 7625
+Wire Wire Line
+	16525 7625 16525 7700
+Wire Wire Line
+	16525 8000 16525 8075
+Wire Wire Line
+	18150 8075 18150 8000
+Wire Wire Line
+	17825 8000 17825 8075
+Wire Wire Line
+	17500 8000 17500 8075
+Wire Wire Line
+	17175 8000 17175 8075
+Wire Wire Line
+	16850 8000 16850 8075
+Wire Wire Line
+	16850 7700 16850 7625
+Wire Wire Line
+	17175 7700 17175 7625
+Wire Wire Line
+	17500 7700 17500 7625
+$Comp
+L Device:C C?
+U 1 1 61F067BD
+P 16850 7850
+F 0 "C?" H 16965 7896 50  0000 L CNN
+F 1 "10u" H 16965 7805 50  0000 L CNN
+F 2 "" H 16888 7700 50  0001 C CNN
+F 3 "~" H 16850 7850 50  0001 C CNN
+	1    16850 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F067C3
+P 17175 7850
+F 0 "C?" H 17290 7896 50  0000 L CNN
+F 1 "10u" H 17290 7805 50  0000 L CNN
+F 2 "" H 17213 7700 50  0001 C CNN
+F 3 "~" H 17175 7850 50  0001 C CNN
+	1    17175 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F067C9
+P 17500 7850
+F 0 "C?" H 17615 7896 50  0000 L CNN
+F 1 "10u" H 17615 7805 50  0000 L CNN
+F 2 "" H 17538 7700 50  0001 C CNN
+F 3 "~" H 17500 7850 50  0001 C CNN
+	1    17500 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17825 7700 17825 7625
+$Comp
+L Device:C C?
+U 1 1 61F067D0
+P 17825 7850
+F 0 "C?" H 17940 7896 50  0000 L CNN
+F 1 "10u" H 17940 7805 50  0000 L CNN
+F 2 "" H 17863 7700 50  0001 C CNN
+F 3 "~" H 17825 7850 50  0001 C CNN
+	1    17825 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F067D6
+P 18150 7850
+F 0 "C?" H 18265 7896 50  0000 L CNN
+F 1 "10u" H 18265 7805 50  0000 L CNN
+F 2 "" H 18188 7700 50  0001 C CNN
+F 3 "~" H 18150 7850 50  0001 C CNN
+	1    18150 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F321B3
+P 19875 7850
+F 0 "C?" H 19990 7896 50  0000 L CNN
+F 1 "10u" H 19990 7805 50  0000 L CNN
+F 2 "" H 19913 7700 50  0001 C CNN
+F 3 "~" H 19875 7850 50  0001 C CNN
+	1    19875 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21500 7700 21500 7625
+Wire Wire Line
+	19875 7625 19875 7700
+Wire Wire Line
+	19875 8000 19875 8075
+Wire Wire Line
+	21500 8075 21500 8000
+Wire Wire Line
+	21175 8000 21175 8075
+Wire Wire Line
+	20850 8000 20850 8075
+Wire Wire Line
+	20525 8000 20525 8075
+Wire Wire Line
+	20200 8000 20200 8075
+Wire Wire Line
+	20200 7700 20200 7625
+Wire Wire Line
+	20525 7700 20525 7625
+Wire Wire Line
+	20850 7700 20850 7625
+$Comp
+L Device:C C?
+U 1 1 61F321C4
+P 20200 7850
+F 0 "C?" H 20315 7896 50  0000 L CNN
+F 1 "10u" H 20315 7805 50  0000 L CNN
+F 2 "" H 20238 7700 50  0001 C CNN
+F 3 "~" H 20200 7850 50  0001 C CNN
+	1    20200 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F321CA
+P 20525 7850
+F 0 "C?" H 20640 7896 50  0000 L CNN
+F 1 "10u" H 20640 7805 50  0000 L CNN
+F 2 "" H 20563 7700 50  0001 C CNN
+F 3 "~" H 20525 7850 50  0001 C CNN
+	1    20525 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F321D0
+P 20850 7850
+F 0 "C?" H 20965 7896 50  0000 L CNN
+F 1 "10u" H 20965 7805 50  0000 L CNN
+F 2 "" H 20888 7700 50  0001 C CNN
+F 3 "~" H 20850 7850 50  0001 C CNN
+	1    20850 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21175 7700 21175 7625
+$Comp
+L Device:C C?
+U 1 1 61F321D7
+P 21175 7850
+F 0 "C?" H 21290 7896 50  0000 L CNN
+F 1 "10u" H 21290 7805 50  0000 L CNN
+F 2 "" H 21213 7700 50  0001 C CNN
+F 3 "~" H 21175 7850 50  0001 C CNN
+	1    21175 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61F321DD
+P 21500 7850
+F 0 "C?" H 21615 7896 50  0000 L CNN
+F 1 "10u" H 21615 7805 50  0000 L CNN
+F 2 "" H 21538 7700 50  0001 C CNN
+F 3 "~" H 21500 7850 50  0001 C CNN
+	1    21500 7850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 7625
+Wire Wire Line
+	3450 7625 3775 7625
+Connection ~ 3450 8075
+Wire Wire Line
+	3450 8075 3775 8075
+Connection ~ 3775 7625
+Wire Wire Line
+	3775 7625 3925 7625
+Connection ~ 3775 8075
+Wire Wire Line
+	3775 8075 3925 8075
+Connection ~ 4100 7625
+Wire Wire Line
+	4100 7625 4425 7625
+Connection ~ 4100 8075
+Wire Wire Line
+	4100 8075 4425 8075
+Connection ~ 4425 7625
+Wire Wire Line
+	4425 7625 4750 7625
+Connection ~ 4425 8075
+Wire Wire Line
+	4425 8075 4750 8075
+Connection ~ 5725 5425
+Wire Wire Line
+	5725 5425 6050 5425
+Connection ~ 5725 5875
+Wire Wire Line
+	5725 5875 6050 5875
+Connection ~ 6050 5425
+Wire Wire Line
+	6050 5425 6225 5425
+Connection ~ 6050 5875
+Wire Wire Line
+	6050 5875 6225 5875
+Connection ~ 6375 5425
+Wire Wire Line
+	6375 5425 6700 5425
+Connection ~ 6375 5875
+Wire Wire Line
+	6375 5875 6700 5875
+Connection ~ 6700 5425
+Wire Wire Line
+	6700 5425 7025 5425
+Connection ~ 6700 5875
+Wire Wire Line
+	6700 5875 7025 5875
+Connection ~ 6800 7625
+Wire Wire Line
+	6800 7625 7125 7625
+Connection ~ 6800 8075
+Wire Wire Line
+	6800 8075 7125 8075
+Connection ~ 7125 7625
+Wire Wire Line
+	7125 7625 7275 7625
+Connection ~ 7125 8075
+Wire Wire Line
+	7125 8075 7275 8075
+Connection ~ 7450 7625
+Wire Wire Line
+	7450 7625 7775 7625
+Connection ~ 7450 8075
+Wire Wire Line
+	7450 8075 7775 8075
+Connection ~ 7775 7625
+Wire Wire Line
+	7775 7625 8100 7625
+Connection ~ 7775 8075
+Wire Wire Line
+	7775 8075 8100 8075
+Connection ~ 9075 5425
+Wire Wire Line
+	9075 5425 9400 5425
+Connection ~ 9075 5875
+Wire Wire Line
+	9075 5875 9400 5875
+Connection ~ 9400 5425
+Wire Wire Line
+	9400 5425 9575 5425
+Connection ~ 9400 5875
+Wire Wire Line
+	9400 5875 9575 5875
+Connection ~ 9725 5425
+Wire Wire Line
+	9725 5425 10050 5425
+Connection ~ 9725 5875
+Wire Wire Line
+	9725 5875 10050 5875
+Connection ~ 10050 5425
+Wire Wire Line
+	10050 5425 10375 5425
+Connection ~ 10050 5875
+Wire Wire Line
+	10050 5875 10375 5875
+Connection ~ 10150 7625
+Wire Wire Line
+	10150 7625 10475 7625
+Connection ~ 10150 8075
+Wire Wire Line
+	10150 8075 10475 8075
+Connection ~ 10475 7625
+Wire Wire Line
+	10475 7625 10625 7625
+Connection ~ 10475 8075
+Wire Wire Line
+	10475 8075 10625 8075
+Connection ~ 10800 7625
+Wire Wire Line
+	10800 7625 11125 7625
+Connection ~ 10800 8075
+Wire Wire Line
+	10800 8075 11125 8075
+Connection ~ 11125 7625
+Wire Wire Line
+	11125 7625 11450 7625
+Connection ~ 11125 8075
+Wire Wire Line
+	11125 8075 11450 8075
+Connection ~ 12425 5425
+Wire Wire Line
+	12425 5425 12750 5425
+Connection ~ 12425 5875
+Wire Wire Line
+	12425 5875 12750 5875
+Connection ~ 12750 5425
+Wire Wire Line
+	12750 5425 12925 5425
+Connection ~ 12750 5875
+Wire Wire Line
+	12750 5875 12925 5875
+Connection ~ 13075 5425
+Wire Wire Line
+	13075 5425 13400 5425
+Connection ~ 13075 5875
+Wire Wire Line
+	13075 5875 13400 5875
+Connection ~ 13400 5425
+Wire Wire Line
+	13400 5425 13725 5425
+Connection ~ 13400 5875
+Wire Wire Line
+	13400 5875 13725 5875
+Connection ~ 13500 7625
+Wire Wire Line
+	13500 7625 13825 7625
+Connection ~ 13500 8075
+Wire Wire Line
+	13500 8075 13825 8075
+Connection ~ 13825 7625
+Wire Wire Line
+	13825 7625 13975 7625
+Connection ~ 13825 8075
+Wire Wire Line
+	13825 8075 13975 8075
+Connection ~ 14150 7625
+Wire Wire Line
+	14150 7625 14475 7625
+Connection ~ 14150 8075
+Wire Wire Line
+	14150 8075 14475 8075
+Connection ~ 14475 7625
+Wire Wire Line
+	14475 7625 14800 7625
+Connection ~ 14475 8075
+Wire Wire Line
+	14475 8075 14800 8075
+Connection ~ 15775 5425
+Wire Wire Line
+	15775 5425 16100 5425
+Connection ~ 15775 5875
+Wire Wire Line
+	15775 5875 16100 5875
+Connection ~ 16100 5425
+Wire Wire Line
+	16100 5425 16275 5425
+Connection ~ 16100 5875
+Wire Wire Line
+	16100 5875 16275 5875
+Connection ~ 16425 5425
+Wire Wire Line
+	16425 5425 16750 5425
+Connection ~ 16425 5875
+Wire Wire Line
+	16425 5875 16750 5875
+Connection ~ 16750 5425
+Wire Wire Line
+	16750 5425 17075 5425
+Connection ~ 16750 5875
+Wire Wire Line
+	16750 5875 17075 5875
+Connection ~ 16850 7625
+Wire Wire Line
+	16850 7625 17175 7625
+Connection ~ 16850 8075
+Wire Wire Line
+	16850 8075 17175 8075
+Connection ~ 17175 7625
+Wire Wire Line
+	17175 7625 17325 7625
+Connection ~ 17175 8075
+Wire Wire Line
+	17175 8075 17325 8075
+Connection ~ 17500 7625
+Wire Wire Line
+	17500 7625 17825 7625
+Connection ~ 17500 8075
+Wire Wire Line
+	17500 8075 17825 8075
+Connection ~ 17825 7625
+Wire Wire Line
+	17825 7625 18150 7625
+Connection ~ 17825 8075
+Wire Wire Line
+	17825 8075 18150 8075
+Connection ~ 19125 5425
+Wire Wire Line
+	19125 5425 19450 5425
+Connection ~ 19125 5875
+Wire Wire Line
+	19125 5875 19450 5875
+Connection ~ 19450 5425
+Wire Wire Line
+	19450 5425 19625 5425
+Connection ~ 19450 5875
+Wire Wire Line
+	19450 5875 19625 5875
+Connection ~ 19775 5425
+Wire Wire Line
+	19775 5425 20100 5425
+Connection ~ 19775 5875
+Wire Wire Line
+	19775 5875 20100 5875
+Connection ~ 20100 5425
+Wire Wire Line
+	20100 5425 20425 5425
+Connection ~ 20100 5875
+Wire Wire Line
+	20100 5875 20425 5875
+Connection ~ 20200 7625
+Wire Wire Line
+	20200 7625 20525 7625
+Connection ~ 20200 8075
+Wire Wire Line
+	20200 8075 20525 8075
+Connection ~ 20525 7625
+Wire Wire Line
+	20525 7625 20675 7625
+Connection ~ 20525 8075
+Wire Wire Line
+	20525 8075 20675 8075
+Connection ~ 20850 7625
+Wire Wire Line
+	20850 7625 21175 7625
+Connection ~ 20850 8075
+Wire Wire Line
+	20850 8075 21175 8075
+Connection ~ 21175 7625
+Wire Wire Line
+	21175 7625 21500 7625
+Connection ~ 21175 8075
+Wire Wire Line
+	21175 8075 21500 8075
+$Comp
+L Device:CP1 C?
+U 1 1 61FE432C
+P 3950 9875
+F 0 "C?" H 4065 9921 50  0000 L CNN
+F 1 "10m/450V" H 4065 9830 50  0000 L CNN
+F 2 "" H 3950 9875 50  0001 C CNN
+F 3 "~" H 3950 9875 50  0001 C CNN
+	1    3950 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE4787
+P 4475 9875
+F 0 "C?" H 4590 9921 50  0000 L CNN
+F 1 "10m/450V" H 4590 9830 50  0000 L CNN
+F 2 "" H 4475 9875 50  0001 C CNN
+F 3 "~" H 4475 9875 50  0001 C CNN
+	1    4475 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE4C9F
+P 5000 9875
+F 0 "C?" H 5115 9921 50  0000 L CNN
+F 1 "10m/450V" H 5115 9830 50  0000 L CNN
+F 2 "" H 5000 9875 50  0001 C CNN
+F 3 "~" H 5000 9875 50  0001 C CNN
+	1    5000 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE50A2
+P 5525 9875
+F 0 "C?" H 5640 9921 50  0000 L CNN
+F 1 "10m/450V" H 5640 9830 50  0000 L CNN
+F 2 "" H 5525 9875 50  0001 C CNN
+F 3 "~" H 5525 9875 50  0001 C CNN
+	1    5525 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE5638
+P 6050 9875
+F 0 "C?" H 6165 9921 50  0000 L CNN
+F 1 "10m/450V" H 6165 9830 50  0000 L CNN
+F 2 "" H 6050 9875 50  0001 C CNN
+F 3 "~" H 6050 9875 50  0001 C CNN
+	1    6050 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE5965
+P 6575 9875
+F 0 "C?" H 6690 9921 50  0000 L CNN
+F 1 "10m/450V" H 6690 9830 50  0000 L CNN
+F 2 "" H 6575 9875 50  0001 C CNN
+F 3 "~" H 6575 9875 50  0001 C CNN
+	1    6575 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE5CBD
+P 7100 9875
+F 0 "C?" H 7215 9921 50  0000 L CNN
+F 1 "10m/450V" H 7215 9830 50  0000 L CNN
+F 2 "" H 7100 9875 50  0001 C CNN
+F 3 "~" H 7100 9875 50  0001 C CNN
+	1    7100 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE5FAC
+P 7650 9875
+F 0 "C?" H 7765 9921 50  0000 L CNN
+F 1 "10m/450V" H 7765 9830 50  0000 L CNN
+F 2 "" H 7650 9875 50  0001 C CNN
+F 3 "~" H 7650 9875 50  0001 C CNN
+	1    7650 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE62A5
+P 8175 9875
+F 0 "C?" H 8290 9921 50  0000 L CNN
+F 1 "10m/450V" H 8290 9830 50  0000 L CNN
+F 2 "" H 8175 9875 50  0001 C CNN
+F 3 "~" H 8175 9875 50  0001 C CNN
+	1    8175 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE6D7A
+P 8700 9875
+F 0 "C?" H 8815 9921 50  0000 L CNN
+F 1 "10m/450V" H 8815 9830 50  0000 L CNN
+F 2 "" H 8700 9875 50  0001 C CNN
+F 3 "~" H 8700 9875 50  0001 C CNN
+	1    8700 9875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61FE7112
+P 9225 9875
+F 0 "C?" H 9340 9921 50  0000 L CNN
+F 1 "10m/450V" H 9340 9830 50  0000 L CNN
+F 2 "" H 9225 9875 50  0001 C CNN
+F 3 "~" H 9225 9875 50  0001 C CNN
+	1    9225 9875
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2250 4925 2250 5250
+Wire Wire Line
+	2250 5250 1075 5250
+Wire Wire Line
+	1075 5250 1075 10500
+Connection ~ 2250 4925
+Wire Wire Line
+	2250 4925 2875 4925
+Wire Wire Line
+	1075 10500 3425 10500
+Wire Wire Line
+	1000 5750 1000 6375
+Wire Wire Line
+	1000 6375 2875 6375
+$EndSCHEMATC

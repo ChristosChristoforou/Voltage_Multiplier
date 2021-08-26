@@ -1,0 +1,190 @@
+08-24 18:09:58 replicate_layout.action_replicate_layout 311:Plugin executed on: 'linux'
+08-24 18:09:58 replicate_layout.action_replicate_layout 312:Plugin executed with python version: '3.8.8 (default, Nov 10 2011, 15:00:00) \n[GCC 10.2.0]'
+08-24 18:09:58 replicate_layout.action_replicate_layout 313:KiCad build version: 5.1.10
+08-24 18:09:58 replicate_layout.action_replicate_layout 314:Replicate layout plugin version: 73 started
+08-24 18:09:58 replicate_layout.action_replicate_layout 327:All top level windows titles are:
+kicad 5.1.10 /home/lenovoy50/documents/kicad/voltage_multiplier/voltage_multiplier.pro
+
+pcbnew — /home/lenovoy50/documents/kicad/voltage_multiplier/voltage_multiplier.kicad_pcb
+
+
+replicate layout
+08-24 18:09:58 replicate_layout.action_replicate_layout 328:All top level windows objects are:
+ <wx._core.Frame object at 0x7fdcdf76a310>
+<wx._core.Frame object at 0x7fdcdf76a280>
+<wx._core.Frame object at 0x7fdcdf76a310>
+<wx._core.Frame object at 0x7fdcdf76a280>
+<wx._core.Frame object at 0x7fdcdf76a310>
+<replicate_layout.action_replicate_layout.ReplicateLayoutDialog object at 0x7fdcdf6ffb80>
+08-24 18:09:58 replicate_layout.action_replicate_layout 351:Preparing replicator with Q10 as a reference
+08-24 18:09:58 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+08-24 18:09:58 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'6123FA74': ['Sheet6123FA73', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/AC_DC.sch'], '61244C13': ['sheet61244BDA', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244C17': ['sheet61244BDB', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244C28': ['sheet61244BDC', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C2C': ['sheet61244BDD', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C36': ['sheet61244BDE', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C3A': ['sheet61244BDF', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C3E': ['sheet61244BE0', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244C46': ['sheet61244BE1', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244C4A': ['sheet61244BE2', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244C4F': ['sheet61244BE3', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C53': ['sheet61244BE4', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C61': ['sheet61244BE5', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244C6F': ['sheet61244BE6', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C73': ['sheet61244BE7', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C7D': ['sheet61244BE8', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C81': ['sheet61244BE9', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C8D': ['sheet61244BEA', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C91': ['sheet61244BEB', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C9B': ['sheet61244BEC', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244C9F': ['sheet61244BED', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244CA5': ['sheet61244BEE', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244CA9': ['sheet61244BEF', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/Diode.sch'], '61244CAD': ['sheet61244BF0', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CB1': ['sheet61244BF1', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CB5': ['sheet61244BF2', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CB9': ['sheet61244BF3', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CBD': ['sheet61244BF4', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CC1': ['sheet61244BF5', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CD6': ['sheet61244BF6', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CDE': ['sheet61244BF8', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CFA': ['sheet61244BF9', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CFE': ['sheet61244BFA', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244D15': ['sheet61244BFB', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244D19': ['sheet61244BFC', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244D1D': ['sheet61244BFD', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch'], '61244CDA': ['sheet61244BF7', '/home/lenovoy50/Documents/Kicad/Voltage_Multiplier/cap_array.sch']}
+08-24 18:09:58 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+08-24 18:09:58 replicate_layout.action_replicate_layout 377:source anchor footprint is 'Q10'
+Located on:['Sheet6123FA73', 'sheet61244BDF']
+With filenames:['AC_DC.sch', 'Diode.sch']
+With sheet_id:['Sheet6123FA73', 'sheet61244BDF']
+08-24 18:09:58 replicate_layout.action_replicate_layout 382:Corresponding footprints are 
+[('Q4', ['Sheet6123FA73', 'sheet61244BDC']), ('Q6', ['Sheet6123FA73', 'sheet61244BDD']), ('Q8', ['Sheet6123FA73', 'sheet61244BDE']), ('Q10', ['Sheet6123FA73', 'sheet61244BDF']), ('Q12', ['Sheet6123FA73', 'sheet61244BE3']), ('Q14', ['Sheet6123FA73', 'sheet61244BE4']), ('Q16', ['Sheet6123FA73', 'sheet61244BE6']), ('Q18', ['Sheet6123FA73', 'sheet61244BE7']), ('Q20', ['Sheet6123FA73', 'sheet61244BE8']), ('Q22', ['Sheet6123FA73', 'sheet61244BE9']), ('Q24', ['Sheet6123FA73', 'sheet61244BEA']), ('Q26', ['Sheet6123FA73', 'sheet61244BEB']), ('Q28', ['Sheet6123FA73', 'sheet61244BEC']), ('Q30', ['Sheet6123FA73', 'sheet61244BED']), ('Q32', ['Sheet6123FA73', 'sheet61244BEE']), ('Q34', ['Sheet6123FA73', 'sheet61244BEF'])]
+08-24 18:09:58 replicate_layout.action_replicate_layout 395:Showing dialog
+08-24 18:09:58 replicate_layout.action_replicate_layout 399:Pcbnew position: wx.Point(0, 27)
+08-24 18:09:58 replicate_layout.action_replicate_layout 405:Display 0: wx.Rect(0, 0, 1920, 1080)
+08-24 18:09:58 replicate_layout.action_replicate_layout 409:Toolbar position: wx.Point(1884, 165)
+08-24 18:09:58 replicate_layout.action_replicate_layout 416:Dialog position: wx.Point(1571, 165)
+08-24 18:09:58 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'Sheet6123FA73', file:'AC_DC.sch'
+08-24 18:09:58 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Sheet6123FA73']
+08-24 18:09:58 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['Q4', 'Q6', 'Q8', 'Q10', 'Q12', 'Q14', 'Q16', 'Q18', 'Q20', 'Q22', 'Q24', 'Q26', 'Q28', 'Q30', 'Q32', 'Q34']
+08-24 18:09:58 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/6123FA74/61244C28/6128C5DE', '/6123FA74/61244C2C/6128C5DE', '/6123FA74/61244C36/6128C5DE', '/6123FA74/61244C3A/6128C5DE', '/6123FA74/61244C4F/6128C5DE', '/6123FA74/61244C53/6128C5DE', '/6123FA74/61244C6F/6128C5DE', '/6123FA74/61244C73/6128C5DE', '/6123FA74/61244C7D/6128C5DE', '/6123FA74/61244C81/6128C5DE', '/6123FA74/61244C8D/6128C5DE', '/6123FA74/61244C91/6128C5DE', '/6123FA74/61244C9B/6128C5DE', '/6123FA74/61244C9F/6128C5DE', '/6123FA74/61244CA5/6128C5DE', '/6123FA74/61244CA9/6128C5DE']
+08-24 18:09:58 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73'], ['Sheet6123FA73']]
+08-24 18:09:58 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Sheet6123FA73']]
+08-24 18:09:58 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[]
+08-24 18:10:02 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet61244BDF', file:'Diode.sch'
+08-24 18:10:02 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Sheet6123FA73', 'sheet61244BDF']
+08-24 18:10:02 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['Q4', 'Q6', 'Q8', 'Q10', 'Q12', 'Q14', 'Q16', 'Q18', 'Q20', 'Q22', 'Q24', 'Q26', 'Q28', 'Q30', 'Q32', 'Q34']
+08-24 18:10:02 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/6123FA74/61244C28/6128C5DE', '/6123FA74/61244C2C/6128C5DE', '/6123FA74/61244C36/6128C5DE', '/6123FA74/61244C3A/6128C5DE', '/6123FA74/61244C4F/6128C5DE', '/6123FA74/61244C53/6128C5DE', '/6123FA74/61244C6F/6128C5DE', '/6123FA74/61244C73/6128C5DE', '/6123FA74/61244C7D/6128C5DE', '/6123FA74/61244C81/6128C5DE', '/6123FA74/61244C8D/6128C5DE', '/6123FA74/61244C91/6128C5DE', '/6123FA74/61244C9B/6128C5DE', '/6123FA74/61244C9F/6128C5DE', '/6123FA74/61244CA5/6128C5DE', '/6123FA74/61244CA9/6128C5DE']
+08-24 18:10:02 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Sheet6123FA73', 'sheet61244BDC'], ['Sheet6123FA73', 'sheet61244BDD'], ['Sheet6123FA73', 'sheet61244BDE'], ['Sheet6123FA73', 'sheet61244BDF'], ['Sheet6123FA73', 'sheet61244BE3'], ['Sheet6123FA73', 'sheet61244BE4'], ['Sheet6123FA73', 'sheet61244BE6'], ['Sheet6123FA73', 'sheet61244BE7'], ['Sheet6123FA73', 'sheet61244BE8'], ['Sheet6123FA73', 'sheet61244BE9'], ['Sheet6123FA73', 'sheet61244BEA'], ['Sheet6123FA73', 'sheet61244BEB'], ['Sheet6123FA73', 'sheet61244BEC'], ['Sheet6123FA73', 'sheet61244BED'], ['Sheet6123FA73', 'sheet61244BEE'], ['Sheet6123FA73', 'sheet61244BEF']]
+08-24 18:10:02 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Sheet6123FA73', 'sheet61244BDC'], ['Sheet6123FA73', 'sheet61244BDD'], ['Sheet6123FA73', 'sheet61244BDE'], ['Sheet6123FA73', 'sheet61244BDF'], ['Sheet6123FA73', 'sheet61244BE3'], ['Sheet6123FA73', 'sheet61244BE4'], ['Sheet6123FA73', 'sheet61244BE6'], ['Sheet6123FA73', 'sheet61244BE7'], ['Sheet6123FA73', 'sheet61244BE8'], ['Sheet6123FA73', 'sheet61244BE9'], ['Sheet6123FA73', 'sheet61244BEA'], ['Sheet6123FA73', 'sheet61244BEB'], ['Sheet6123FA73', 'sheet61244BEC'], ['Sheet6123FA73', 'sheet61244BED'], ['Sheet6123FA73', 'sheet61244BEE'], ['Sheet6123FA73', 'sheet61244BEF']]
+08-24 18:10:02 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['Sheet6123FA73', 'sheet61244BDC'], ['Sheet6123FA73', 'sheet61244BDD'], ['Sheet6123FA73', 'sheet61244BDE'], ['Sheet6123FA73', 'sheet61244BE3'], ['Sheet6123FA73', 'sheet61244BE4'], ['Sheet6123FA73', 'sheet61244BE6'], ['Sheet6123FA73', 'sheet61244BE7'], ['Sheet6123FA73', 'sheet61244BE8'], ['Sheet6123FA73', 'sheet61244BE9'], ['Sheet6123FA73', 'sheet61244BEA'], ['Sheet6123FA73', 'sheet61244BEB'], ['Sheet6123FA73', 'sheet61244BEC'], ['Sheet6123FA73', 'sheet61244BED'], ['Sheet6123FA73', 'sheet61244BEE'], ['Sheet6123FA73', 'sheet61244BEF']]
+08-24 18:10:05 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet61244BDF', file:'Diode.sch'
+08-24 18:10:05 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Sheet6123FA73', 'sheet61244BDF']
+08-24 18:10:05 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['Q4', 'Q6', 'Q8', 'Q10', 'Q12', 'Q14', 'Q16', 'Q18', 'Q20', 'Q22', 'Q24', 'Q26', 'Q28', 'Q30', 'Q32', 'Q34']
+08-24 18:10:05 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/6123FA74/61244C28/6128C5DE', '/6123FA74/61244C2C/6128C5DE', '/6123FA74/61244C36/6128C5DE', '/6123FA74/61244C3A/6128C5DE', '/6123FA74/61244C4F/6128C5DE', '/6123FA74/61244C53/6128C5DE', '/6123FA74/61244C6F/6128C5DE', '/6123FA74/61244C73/6128C5DE', '/6123FA74/61244C7D/6128C5DE', '/6123FA74/61244C81/6128C5DE', '/6123FA74/61244C8D/6128C5DE', '/6123FA74/61244C91/6128C5DE', '/6123FA74/61244C9B/6128C5DE', '/6123FA74/61244C9F/6128C5DE', '/6123FA74/61244CA5/6128C5DE', '/6123FA74/61244CA9/6128C5DE']
+08-24 18:10:05 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Sheet6123FA73', 'sheet61244BDC'], ['Sheet6123FA73', 'sheet61244BDD'], ['Sheet6123FA73', 'sheet61244BDE'], ['Sheet6123FA73', 'sheet61244BDF'], ['Sheet6123FA73', 'sheet61244BE3'], ['Sheet6123FA73', 'sheet61244BE4'], ['Sheet6123FA73', 'sheet61244BE6'], ['Sheet6123FA73', 'sheet61244BE7'], ['Sheet6123FA73', 'sheet61244BE8'], ['Sheet6123FA73', 'sheet61244BE9'], ['Sheet6123FA73', 'sheet61244BEA'], ['Sheet6123FA73', 'sheet61244BEB'], ['Sheet6123FA73', 'sheet61244BEC'], ['Sheet6123FA73', 'sheet61244BED'], ['Sheet6123FA73', 'sheet61244BEE'], ['Sheet6123FA73', 'sheet61244BEF']]
+08-24 18:10:05 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Sheet6123FA73', 'sheet61244BDC'], ['Sheet6123FA73', 'sheet61244BDD'], ['Sheet6123FA73', 'sheet61244BDE'], ['Sheet6123FA73', 'sheet61244BDF'], ['Sheet6123FA73', 'sheet61244BE3'], ['Sheet6123FA73', 'sheet61244BE4'], ['Sheet6123FA73', 'sheet61244BE6'], ['Sheet6123FA73', 'sheet61244BE7'], ['Sheet6123FA73', 'sheet61244BE8'], ['Sheet6123FA73', 'sheet61244BE9'], ['Sheet6123FA73', 'sheet61244BEA'], ['Sheet6123FA73', 'sheet61244BEB'], ['Sheet6123FA73', 'sheet61244BEC'], ['Sheet6123FA73', 'sheet61244BED'], ['Sheet6123FA73', 'sheet61244BEE'], ['Sheet6123FA73', 'sheet61244BEF']]
+08-24 18:10:05 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['Sheet6123FA73', 'sheet61244BDC'], ['Sheet6123FA73', 'sheet61244BDD'], ['Sheet6123FA73', 'sheet61244BDE'], ['Sheet6123FA73', 'sheet61244BE3'], ['Sheet6123FA73', 'sheet61244BE4'], ['Sheet6123FA73', 'sheet61244BE6'], ['Sheet6123FA73', 'sheet61244BE7'], ['Sheet6123FA73', 'sheet61244BE8'], ['Sheet6123FA73', 'sheet61244BE9'], ['Sheet6123FA73', 'sheet61244BEA'], ['Sheet6123FA73', 'sheet61244BEB'], ['Sheet6123FA73', 'sheet61244BEC'], ['Sheet6123FA73', 'sheet61244BED'], ['Sheet6123FA73', 'sheet61244BEE'], ['Sheet6123FA73', 'sheet61244BEF']]
+08-24 18:10:05 replicate_layout.action_replicate_layout 185:Replicating layout
+08-24 18:10:05 replicate_layout.replicatelayout 991:Starting replication of sheets: [['Sheet6123FA73', 'sheet61244BDC'], ['Sheet6123FA73', 'sheet61244BDD'], ['Sheet6123FA73', 'sheet61244BDE'], ['Sheet6123FA73', 'sheet61244BE3'], ['Sheet6123FA73', 'sheet61244BE4'], ['Sheet6123FA73', 'sheet61244BE6'], ['Sheet6123FA73', 'sheet61244BE7'], ['Sheet6123FA73', 'sheet61244BE8'], ['Sheet6123FA73', 'sheet61244BE9'], ['Sheet6123FA73', 'sheet61244BEA'], ['Sheet6123FA73', 'sheet61244BEB'], ['Sheet6123FA73', 'sheet61244BEC'], ['Sheet6123FA73', 'sheet61244BED'], ['Sheet6123FA73', 'sheet61244BEE'], ['Sheet6123FA73', 'sheet61244BEF']]
+on level: ['Sheet6123FA73', 'sheet61244BDF']
+with tracks=True, zone=True, text=True, containing=False, remove=False, locked=False
+08-24 18:10:05 root 267:updating GUI message: 'Preparing for replication'
+08-24 18:10:05 replicate_layout.replicatelayout 556:Getting the list of source footprints
+08-24 18:10:05 root 272:updating GUI with: 0
+08-24 18:10:06 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+08-24 18:10:06 root 272:updating GUI with: 12
+08-24 18:10:06 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+08-24 18:10:06 replicate_layout.replicatelayout 568:Getting source bounding box
+08-24 18:10:06 root 272:updating GUI with: 37
+08-24 18:10:06 replicate_layout.replicatelayout 572:Getting source tracks
+08-24 18:10:06 root 272:updating GUI with: 50
+08-24 18:10:06 replicate_layout.replicatelayout 576:Getting source zones
+08-24 18:10:06 replicate_layout.replicatelayout 580:Getting source text items
+08-24 18:10:06 replicate_layout.replicatelayout 584:Getting source text items
+08-24 18:10:06 root 267:updating GUI message: 'Replicating footprints'
+08-24 18:10:06 replicate_layout.replicatelayout 590:Replicating footprints
+08-24 18:10:06 root 272:updating GUI with: 0
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BDC']
+08-24 18:10:06 root 272:updating GUI with: 3
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BDD']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BDE']
+08-24 18:10:06 root 272:updating GUI with: 20
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BE3']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BE4']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BE6']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BE7']
+08-24 18:10:06 root 272:updating GUI with: 46
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BE8']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BE9']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BEA']
+08-24 18:10:06 root 272:updating GUI with: 66
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BEB']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BEC']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BED']
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BEE']
+08-24 18:10:06 root 272:updating GUI with: 93
+08-24 18:10:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet6123FA73', 'sheet61244BEF']
+08-24 18:10:06 root 267:updating GUI message: 'Replicating tracks'
+08-24 18:10:06 replicate_layout.replicatelayout 720:Replicating tracks
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BDC']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BDD']
+08-24 18:10:06 root 272:updating GUI with: 13
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BDE']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BE3']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BE4']
+08-24 18:10:06 root 272:updating GUI with: 33
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BE6']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BE7']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BE8']
+08-24 18:10:06 root 272:updating GUI with: 53
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BE9']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BEA']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BEB']
+08-24 18:10:06 root 272:updating GUI with: 73
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BEC']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BED']
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BEE']
+08-24 18:10:06 root 272:updating GUI with: 93
+08-24 18:10:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet6123FA73', 'sheet61244BEF']
+08-24 18:10:06 root 267:updating GUI message: 'Replicating zones'
+08-24 18:10:06 replicate_layout.replicatelayout 771:Replicating zones
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BDC']
+08-24 18:10:06 root 272:updating GUI with: 2
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BDD']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BDE']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BE3']
+08-24 18:10:06 root 272:updating GUI with: 22
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BE4']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BE6']
+08-24 18:10:06 root 272:updating GUI with: 35
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BE7']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BE8']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BE9']
+08-24 18:10:06 root 272:updating GUI with: 55
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BEA']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BEB']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BEC']
+08-24 18:10:06 root 272:updating GUI with: 75
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BED']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BEE']
+08-24 18:10:06 replicate_layout.replicatelayout 778:Replicating zones on sheet ['Sheet6123FA73', 'sheet61244BEF']
+08-24 18:10:06 root 272:updating GUI with: 95
+08-24 18:10:06 root 267:updating GUI message: 'Replicating text'
+08-24 18:10:06 replicate_layout.replicatelayout 837:Replicating text
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BDC']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BDD']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BDE']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BE3']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BE4']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BE6']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BE7']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BE8']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BE9']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BEA']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BEB']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BEC']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BED']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BEE']
+08-24 18:10:06 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet6123FA73', 'sheet61244BEF']
+08-24 18:10:06 root 267:updating GUI message: 'Replicating drawings'
+08-24 18:10:06 replicate_layout.replicatelayout 868:Replicating drawings
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BDC']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BDD']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BDE']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BE3']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BE4']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BE6']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BE7']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BE8']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BE9']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BEA']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BEB']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BEC']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BED']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BEE']
+08-24 18:10:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet6123FA73', 'sheet61244BEF']
+08-24 18:10:06 replicate_layout.action_replicate_layout 207:Replication complete
